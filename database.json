@@ -146,29 +146,49 @@
 			"correct": 0
 		}]
 	},
-    {
 		"id": 7,
-		"level": "medium",
-		"question": " ?",
+		"level": "easy",
+		"question": "Kto zastapil Pomore Sprout na pozycji nauczyciela Zielarstwa?",
 		"answerA": [{
-			"answer": "",
+			"answer": "Herbert Beery",
 			"correct": 0
 		}],
 		"answerB": [{
-			"answer": "",
+			"answer": "Hermiona Granger",
 			"correct": 0
 		}],
 		"answerC": [{
-			"answer": "",
+			"answer": "xxx xxx",
 			"correct": 0
 		}],
 		"answerD": [{
-			"answer": "Severus Snape",
+			"answer": "Neville Longbottom",
+			"correct": 1
+		}]
+	},
+    {
+		"id": 8,
+		"level": "hard",
+		"question": "Jak nazywala sie szkola, w ktorej glowny nacisk kladzono na zielarstwo?",
+		"answerA": [{
+			"answer": "Durmstrang Institute",
+			"correct": 0
+		}],
+		"answerB": [{
+			"answer": "Castelobruxo",
+			"correct": 1
+		}],
+		"answerC": [{
+			"answer": "Beauxbatons Academy of Magic",
+			"correct": 0
+		}],
+		"answerD": [{
+			"answer": "Mahoutokoro School of Magic",
 			"correct": 0
 		}]
 	},
 ],
-"herbts":[
+"herbology":[
     {
     "id": 0,
     "level": "easy",
@@ -214,46 +234,146 @@
     "id": 2,
     "level": "easy",
     "question": ,
-    "answerA": ,
-    "answerB": ,
-    "answerC": ,
-    "answerD": ,
+		"answerA": [{
+			"answer": "",
+			"correct": 0
+		}],
+		"answerB": [{
+			"answer": "",
+			"correct": 0
+		}],
+		"answerC": [{
+			"answer": "",
+			"correct": 1
+		}],
+		"answerD": [{
+			"answer": "",
+			"correct": 0
+		}]
   },
     {
     "id": 3,
     "level": "easy",
     "question": ,
-    "answerA": ,
-    "answerB": ,
-    "answerC": ,
-    "answerD": ,
+		"answerA": [{
+			"answer": "",
+			"correct": 0
+		}],
+		"answerB": [{
+			"answer": "",
+			"correct": 0
+		}],
+		"answerC": [{
+			"answer": "",
+			"correct": 1
+		}],
+		"answerD": [{
+			"answer": "",
+			"correct": 0
+		}]
   },
     {
     "id": 4,
     "level": "easy",
     "question": ,
-    "answerA": ,
-    "answerB": ,
-    "answerC": ,
-    "answerD": ,
+		"answerA": [{
+			"answer": "",
+			"correct": 0
+		}],
+		"answerB": [{
+			"answer": "",
+			"correct": 0
+		}],
+		"answerC": [{
+			"answer": "",
+			"correct": 1
+		}],
+		"answerD": [{
+			"answer": "",
+			"correct": 0
+		}]
   },
     {
     "id": 5,
     "level": "easy",
     "question": ,
-    "answerA": ,
-    "answerB": ,
-    "answerC": ,
-    "answerD": ,
+		"answerA": [{
+			"answer": "",
+			"correct": 0
+		}],
+		"answerB": [{
+			"answer": "",
+			"correct": 0
+		}],
+		"answerC": [{
+			"answer": "",
+			"correct": 1
+		}],
+		"answerD": [{
+			"answer": "",
+			"correct": 0
+		}]
   },
     {
     "id": 6,
     "level": "easy",
     "question": ,
-    "answerA": ,
-    "answerB": ,
-    "answerC": ,
-    "answerD": ,
+		"answerA": [{
+			"answer": "",
+			"correct": 0
+		}],
+		"answerB": [{
+			"answer": "",
+			"correct": 0
+		}],
+		"answerC": [{
+			"answer": "",
+			"correct": 1
+		}],
+		"answerD": [{
+			"answer": "",
+			"correct": 0
+		}]
   },
+		"id": 7,
+		"level": "medium",
+		"question": "Z jakiej skóry zrobione byly rekawice, ktorych uzywala Pomona Sprout?",
+		"answerA": [{
+			"answer": "wilczej",
+			"correct": 0
+		}],
+		"answerB": [{
+			"answer": "gryfiej",
+			"correct": 0
+		}],
+		"answerC": [{
+			"answer": "smoczej",
+			"correct": 1
+		}],
+		"answerD": [{
+			"answer": "psiej",
+			"correct": 0
+		}]
+	},
+		"id": 8,
+		"level": "hard",
+		"question": "W jakiej klasie byly prowadzone zajecia z zielarstwa?",
+		"answerA": [{
+			"answer": "93",
+			"correct": 0
+		}],
+		"answerB": [{
+			"answer": "100",
+			"correct": 0
+		}],
+		"answerC": [{
+			"answer": "20",
+			"correct": 0
+		}],
+		"answerD": [{
+			"answer": "102",
+			"correct": 1
+		}]
+	},
 ],
 }
