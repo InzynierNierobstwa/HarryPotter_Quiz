@@ -1,15 +1,37 @@
 {
-"persons": [
+"characters": [
   {
     "id": 0,
-    "question":  ,
-    "answerA": ,
-    "answerB": ,
-    "answerC": ,
-    "answerD": ,
+    "level": "easy",
+    "question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?" ,
+    "answerA": [
+      {
+        "answer": "1991",
+        "correct": 0
+    }
+    ],
+    "answerB": [
+      {
+        "answer": "1993",
+        "correct": 0
+    }
+    ],
+    "answerC": [
+      {
+        "answer": "1990",
+        "correct": 1
+    }
+    ],
+    "answerD": [
+      {
+        "answer": "1989",
+        "correct": 0
+    }
+    ], 
   },
     {
     "id": 1,
+    "level": "easy",
     "question": ,
     "answerA": ,
     "answerB": ,
@@ -18,6 +40,7 @@
   },
     {
     "id": 2,
+    "level": "easy",
     "question": ,
     "answerA": ,
     "answerB": ,
@@ -26,6 +49,7 @@
   },
     {
     "id": 3,
+    "level": "easy",
     "question": ,
     "answerA": ,
     "answerB": ,
@@ -34,6 +58,7 @@
   },
     {
     "id": 4,
+    "level": "easy",
     "question": ,
     "answerA": ,
     "answerB": ,
@@ -42,6 +67,7 @@
   },
     {
     "id": 5,
+    "level": "easy",
     "question": ,
     "answerA": ,
     "answerB": ,
@@ -49,7 +75,8 @@
     "answerD": ,
   },
     {
-    "id": 5,
+    "id": 6,
+    "level": "easy"
     "question": ,
     "answerA": ,
     "answerB": ,
@@ -60,6 +87,7 @@
 "herbts":[
     {
     "id": 0,
+    "level": "easy",
     "question": ,
     "answerA": ,
     "answerB": ,
@@ -68,6 +96,7 @@
   },
     {
     "id": 1,
+    "level": "easy",
     "question": ,
     "answerA": ,
     "answerB": ,
@@ -76,6 +105,7 @@
   },
     {
     "id": 2,
+    "level": "easy",
     "question": ,
     "answerA": ,
     "answerB": ,
@@ -84,6 +114,7 @@
   },
     {
     "id": 3,
+    "level": "easy",
     "question": ,
     "answerA": ,
     "answerB": ,
@@ -92,6 +123,7 @@
   },
     {
     "id": 4,
+    "level": "easy",
     "question": ,
     "answerA": ,
     "answerB": ,
@@ -100,6 +132,7 @@
   },
     {
     "id": 5,
+    "level": "easy",
     "question": ,
     "answerA": ,
     "answerB": ,
@@ -108,6 +141,7 @@
   },
     {
     "id": 6,
+    "level": "easy",
     "question": ,
     "answerA": ,
     "answerB": ,
