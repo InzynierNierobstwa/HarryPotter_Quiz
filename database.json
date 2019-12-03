@@ -1,379 +1,528 @@
 {
-	"characters": [{
-		"id": 0,
-		"level": "easy",
-		"question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?",
-		"answerA": [{
-			"answer": "1991",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "1993",
-			"correct": 0
-		}],
-		"answerC": [{
-			"answer": "1990",
-			"correct": 1
-		}],
-		"answerD": [{
-			"answer": "1989",
-			"correct": 0
-		}]
-	},
-{
-		"id": 1,
-		"level": "easy",
-		"question": "Kto zabil Severusa Snapea?",
-		"answerA": [{
-			"answer": "Voldemort",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "Harry Potter",
-			"correct": 0
-		}],
-		"answerC": [{
-			"answer": "Draco Malfoy",
-			"correct": 0
-		}],
-		"answerD": [{
-			"answer": "Nagini",
-			"correct": 1
-		}]
-	},
-{
-		"id": 2,
-		"level": "easy",
-		"question": "Kto nie nalezal do Zakonu Feniksa?",
-		"answerA": [{
-			"answer": "Lily Potter",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "Nevil Longbottom",
-			"correct": 1
-		}],
-		"answerC": [{
-			"answer": "Severus Snape",
-			"correct": 0
-		}],
-		"answerD": [{
-			"answer": "Ron Weslay",
-			"correct": 0
-		}]
-	},
-{
-		"id": 3,
-		"level": "easy",
-		"question": "Kim byli rodzice Hermiony Granger?",
-		"answerA": [{
-			"answer": "bankowcami",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "dentystami",
-			"correct": 1
-		}],
-		"answerC": [{
-			"answer": "kierowcami",
-			"correct": 0
-		}],
-		"answerD": [{
-			"answer": "sprzedawcami",
-			"correct": 0
-		}]
-	},
-{
-		"id": 4,
-		"level": "easy",
-		"question": "Ile dzieci mieli panstwo Weslay?",
-		"answerA": [{
-			"answer": "8",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "5",
-			"correct": 0
-		}],
-		"answerC": [{
-			"answer": "3",
-			"correct": 0
-		}],
-		"answerD": [{
-			"answer": "7",
-			"correct": 1
-		}]
-	},
-{
-		"id": 5,
-		"level": "easy",
-		"question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?",
-		"answerA": [{
-			"answer": "1991",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "1993",
-			"correct": 0
-		}],
-		"answerC": [{
-			"answer": "1990",
-			"correct": 1
-		}],
-		"answerD": [{
-			"answer": "1989",
-			"correct": 0
-		}]
-	},
-{
-		"id": 6,
-		"level": "easy",
-		"question": "Kto byl wlascicielem czarnej rozdzki po smierci Albusa Dumbledora?",
-		"answerA": [{
-			"answer": "Harry Potter",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "Draco Malfoy",
-			"correct": 1
-		}],
-		"answerC": [{
-			"answer": "Bellatriks Lestrange",
-			"correct": 0
-		}],
-		"answerD": [{
-			"answer": "Severus Snape",
-			"correct": 0
-		}]
-	},
-		"id": 7,
-		"level": "easy",
-		"question": "Kto zastapil Pomore Sprout na pozycji nauczyciela Zielarstwa?",
-		"answerA": [{
-			"answer": "Herbert Beery",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "Hermiona Granger",
-			"correct": 0
-		}],
-		"answerC": [{
-			"answer": "xxx xxx",
-			"correct": 0
-		}],
-		"answerD": [{
-			"answer": "Neville Longbottom",
-			"correct": 1
-		}]
-	},
+  "characters": [
     {
-		"id": 8,
-		"level": "hard",
-		"question": "Jak nazywala sie szkola, w ktorej glowny nacisk kladzono na zielarstwo?",
-		"answerA": [{
-			"answer": "Durmstrang Institute",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "Castelobruxo",
-			"correct": 1
-		}],
-		"answerC": [{
-			"answer": "Beauxbatons Academy of Magic",
-			"correct": 0
-		}],
-		"answerD": [{
-			"answer": "Mahoutokoro School of Magic",
-			"correct": 0
-		}]
-	},
-],
-"herbology":[
+      "id": 0,
+      "level": "easy",
+      "question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?",
+      "answerA": [
+        {
+          "answer": "1991",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "1993",
+          "correct": 0
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "1990",
+          "correct": 1
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "1989",
+          "correct": 0
+        }
+      ]
+    },
     {
-    "id": 0,
-    "level": "easy",
-    "question":"Jaka roslina wyleczyla spetryfikowanych uczniów po ataku bazyliszka? ,
-		"answerA": [{
-			"answer": "ziolko1",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "Mandragora",
-			"correct": 1
-		}],
-		"answerC": [{
-			"answer": "Valeriana",
-			"correct": 0
-		}],
-		"answerD": [{
-			"answer": "ziolko4",
-			"correct": 0
-		}]
+      "id": 1,
+      "level": "easy",
+      "question": "Kto zabil Severusa Snapea?",
+      "answerA": [
+        {
+          "answer": "Voldemort",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "Harry Potter",
+          "correct": 0
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "Draco Malfoy",
+          "correct": 0
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "Nagini",
+          "correct": 1
+        }
+      ]
+    },
     {
-    "id": 1,
-    "level": "easy",
-    "question": "Jaka ksiazke dostal Nevile Longbotomm?" ,
-		"answerA": [{
-			"answer": "",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "",
-			"correct": 0
-		}],
-		"answerC": [{
-			"answer": "Magical Water Plants of the Mediterranean",
-			"correct": 1
-		}],
-		"answerD": [{
-			"answer": "",
-			"correct": 0
-		}]
-  },
+      "id": 2,
+      "level": "easy",
+      "question": "Kto nie nalezal do Zakonu Feniksa?",
+      "answerA": [
+        {
+          "answer": "Lily Potter",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "Nevil Longbottom",
+          "correct": 1
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "Severus Snape",
+          "correct": 0
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "Ron Weslay",
+          "correct": 0
+        }
+      ]
+    },
     {
-    "id": 2,
-    "level": "easy",
-    "question": ,
-		"answerA": [{
-			"answer": "",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "",
-			"correct": 0
-		}],
-		"answerC": [{
-			"answer": "",
-			"correct": 1
-		}],
-		"answerD": [{
-			"answer": "",
-			"correct": 0
-		}]
-  },
+      "id": 3,
+      "level": "easy",
+      "question": "Kim byli rodzice Hermiony Granger?",
+      "answerA": [
+        {
+          "answer": "bankowcami",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "dentystami",
+          "correct": 1
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "kierowcami",
+          "correct": 0
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "sprzedawcami",
+          "correct": 0
+        }
+      ]
+    },
     {
-    "id": 3,
-    "level": "easy",
-    "question": ,
-		"answerA": [{
-			"answer": "",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "",
-			"correct": 0
-		}],
-		"answerC": [{
-			"answer": "",
-			"correct": 1
-		}],
-		"answerD": [{
-			"answer": "",
-			"correct": 0
-		}]
-  },
+      "id": 4,
+      "level": "easy",
+      "question": "Ile dzieci mieli panstwo Weslay?",
+      "answerA": [
+        {
+          "answer": "8",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "5",
+          "correct": 0
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "3",
+          "correct": 0
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "7",
+          "correct": 1
+        }
+      ]
+    },
     {
-    "id": 4,
-    "level": "easy",
-    "question": ,
-		"answerA": [{
-			"answer": "",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "",
-			"correct": 0
-		}],
-		"answerC": [{
-			"answer": "",
-			"correct": 1
-		}],
-		"answerD": [{
-			"answer": "",
-			"correct": 0
-		}]
-  },
+      "id": 5,
+      "level": "easy",
+      "question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?",
+      "answerA": [
+        {
+          "answer": "1991",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "1993",
+          "correct": 0
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "1990",
+          "correct": 1
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "1989",
+          "correct": 0
+        }
+      ]
+    },
     {
-    "id": 5,
-    "level": "easy",
-    "question": ,
-		"answerA": [{
-			"answer": "",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "",
-			"correct": 0
-		}],
-		"answerC": [{
-			"answer": "",
-			"correct": 1
-		}],
-		"answerD": [{
-			"answer": "",
-			"correct": 0
-		}]
-  },
+      "id": 6,
+      "level": "easy",
+      "question": "Kto byl wlascicielem czarnej rozdzki po smierci Albusa Dumbledora?",
+      "answerA": [
+        {
+          "answer": "Harry Potter",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "Draco Malfoy",
+          "correct": 1
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "Bellatriks Lestrange",
+          "correct": 0
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "Severus Snape",
+          "correct": 0
+        }
+      ]
+    },
     {
-    "id": 6,
-    "level": "easy",
-    "question": ,
-		"answerA": [{
-			"answer": "",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "",
-			"correct": 0
-		}],
-		"answerC": [{
-			"answer": "",
-			"correct": 1
-		}],
-		"answerD": [{
-			"answer": "",
-			"correct": 0
-		}]
-  },
-		"id": 7,
-		"level": "medium",
-		"question": "Z jakiej skóry zrobione byly rekawice, ktorych uzywala Pomona Sprout?",
-		"answerA": [{
-			"answer": "wilczej",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "gryfiej",
-			"correct": 0
-		}],
-		"answerC": [{
-			"answer": "smoczej",
-			"correct": 1
-		}],
-		"answerD": [{
-			"answer": "psiej",
-			"correct": 0
-		}]
-	},
-		"id": 8,
-		"level": "hard",
-		"question": "W jakiej klasie byly prowadzone zajecia z zielarstwa?",
-		"answerA": [{
-			"answer": "93",
-			"correct": 0
-		}],
-		"answerB": [{
-			"answer": "100",
-			"correct": 0
-		}],
-		"answerC": [{
-			"answer": "20",
-			"correct": 0
-		}],
-		"answerD": [{
-			"answer": "102",
-			"correct": 1
-		}]
-	},
-],
+      "id": 7,
+      "level": "easy",
+      "question": "Kto zastapil Pomore Sprout na pozycji nauczyciela Zielarstwa?",
+      "answerA": [
+        {
+          "answer": "Herbert Beery",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "Hermiona Granger",
+          "correct": 0
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "xxx xxx",
+          "correct": 0
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "Neville Longbottom",
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "level": "hard",
+      "question": "Jak nazywala sie szkola, w ktorej glowny nacisk kladzono na zielarstwo?",
+      "answerA": [
+        {
+          "answer": "Durmstrang Institute",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "Castelobruxo",
+          "correct": 1
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "Beauxbatons Academy of Magic",
+          "correct": 0
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "Mahoutokoro School of Magic",
+          "correct": 0
+        }
+      ]
+    }
+  ],
+  "herbology": [
+    {
+      "id": 0,
+      "level": "easy",
+      "question": "Jaka roslina wyleczyla spetryfikowanych uczniów po ataku bazyliszka?",
+      "answerA": [
+        {
+          "answer": "Diabelskie Sidla",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "Mandragora",
+          "correct": 1
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "Valeriana",
+          "correct": 0
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "Skaczaca Cebulka",
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "level": "easy",
+      "question": "Jaka ksiazke dostal Nevile Longbotomm?",
+      "answerA": [
+        {
+          "answer": "Encyklopedia muchomorów",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "Niezwykłe rośliny wodne Winogranda",
+          "correct": 0
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "Śródziemnomorskie magiczne rośliny wodne i ich właściwości",
+          "correct": 1
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "Mięsożerne drzewa świata",
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "level": "easy",
+      "question": "Jaka roslina zatrzymala Forda Anglie?",
+      "answerA": [
+        {
+          "answer": "czyrakobulwa",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "wierzba bijaca",
+          "correct": 1
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "dźieżba bijaca",
+          "correct": 0
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "mieta",
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "level": "easy",
+      "question": "Co leczyla ropa z czyrakobulwy?",
+      "answerA": [
+        {
+          "answer": "przeziebienie",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "zlamania",
+          "correct": 0
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "tradzik",
+          "correct": 1
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "reumatoidalne zapalenie stawow",
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "level": "easy",
+      "question": "O jaka rosline zapytal sie Severus Snape na pierwszej lekcji eliksirow Harrego Pottera?",
+      "answerA": [
+        {
+          "answer": "ciemiernik",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "miete",
+          "correct": 0
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "o kore z drzewa Wiggen",
+          "correct": 0
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "tojad",
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "level": "easy",
+      "question": "Jaka roslina ugryzla Dracona Malfoya podczas zajec zielarstwa?",
+      "answerA": [
+        {
+          "answer": "Mandragora",
+          "correct": 1
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "Klaposkrzeczki",
+          "correct": 0
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "Trzepotka",
+          "correct": 0
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "Dyptam",
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "level": "easy",
+      "question": "Jakim zakleciem mozna bylo pokonac skaczace cebulki",
+      "answerA": [
+        {
+          "answer": "Depulso",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "Lumos",
+          "correct": 0
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "Crucio",
+          "correct": 0
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "Flipendo",
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "level": "medium",
+      "question": "Z jakiej skóry zrobione byly rekawice, ktorych uzywala Pomona Sprout?",
+      "answerA": [
+        {
+          "answer": "wilczej",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "gryfiej",
+          "correct": 0
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "smoczej",
+          "correct": 1
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "psiej",
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "level": "hard",
+      "question": "W jakiej klasie byly prowadzone zajecia z zielarstwa?",
+      "answerA": [
+        {
+          "answer": "93",
+          "correct": 0
+        }
+      ],
+      "answerB": [
+        {
+          "answer": "100",
+          "correct": 0
+        }
+      ],
+      "answerC": [
+        {
+          "answer": "20",
+          "correct": 0
+        }
+      ],
+      "answerD": [
+        {
+          "answer": "102",
+          "correct": 1
+        }
+      ]
+    }
+  ]
 }
