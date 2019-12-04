@@ -1,10 +1,48 @@
-$fontMain: "Bebas Neue", cursive;
-$fontSide: "Lato", sans-serif;
+@import "variables.scss";
+@import "features.scss";
 
-//slytherin
+//main
+.container {
+  margin: 3em;
+}
 
-//gryffindor
+//static
+.header {
+  font-family: $fontMain;
+}
 
-//ravenclaw
+.header__contact {
+  display: flex;
+  justify-content: flex-end;
+}
 
-//hufflepuff
+.header__contact--icon {
+  padding: 0.25em;
+}
+
+.header_descr {
+  font-size: 2em;
+}
+
+.playTutorial {
+  font-family: $fontSide;
+  font-size: 1.5em;
+}
+
+.footer {
+  font-family: $fontSide;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    font-size: 1.5em;
+  }
+}
+
+.footer__contact--icon {
+  padding: 0.25em;
+}
+
+.question__frame {
+  border: 1px solid #000;
+}
