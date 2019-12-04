@@ -52,7 +52,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "History",
       "Law",
       "Magical Creatures",
-      "Character"
+      "Character",
+      "All"
     ];
 
     let elem;
@@ -69,13 +70,14 @@ document.addEventListener("DOMContentLoaded", function() {
     lvlStart();
 
     const btnsLvl = document.getElementsByClassName("lvl__button");
-
     for (const el of btnsLvl) {
       el.addEventListener("click", function(e) {
         e.preventDefault();
         categoryStart();
       });
     }
+
+    console.log(btnsLvl.length);
   });
 
   //question creator
@@ -95,17 +97,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const quesAnswerBundler = document.createElement("div");
     quesAnswerBundler.classList.add("question__answer");
 
+    quesFrame.appendChild(quesTitle);
+    quesFrame.appendChild(quesAnswerBundler);
+    sectionPlace.appendChild(quesFrame);
+
     for (let i = 0; i < 4; i++) {
       const quesAnswer = document.createElement("button");
       quesAnswer.classList.add("question__answerBtn");
       quesAnswer.innerHTML = i;
       quesAnswerBundler.appendChild(quesAnswer);
     }
-
-    quesFrame.appendChild(quesAnswerBundler);
-    quesFrame.appendChild(quesTitle);
-    sectionPlace.appendChild(quesFrame);
   };
-
-  questionFrame();
 });
