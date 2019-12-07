@@ -31,18 +31,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const lvlTable = ["easy", "medium", "hard", "mix"];
     let elem;
+    let arrayElem = [];
+
     lvlTable.forEach(function(el) {
       elem = document.createElement("button");
       elem.classList.add("lvl__button");
       elem.innerHTML = el;
       lvlBundle.appendChild(elem);
-
+      arrayElem.push(elem);
       elem.addEventListener("click", function(e) {
         e.preventDefault();
-        console.log("dziala");
         categoryStart();
       });
     });
+
+    console.log(arrayElem.length);
+    if (arrayElem.length > 4) {
+      console.log("powyzej 4");
+    }
   };
 
   //category panel
@@ -84,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   //question creator
   const questionCreator = function(lvl, category) {
-    question.innerHTML = "";
+    /*     question.innerHTML = ; */
   };
 
   //question frame creator
