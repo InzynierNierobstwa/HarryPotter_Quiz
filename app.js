@@ -36,6 +36,12 @@ document.addEventListener("DOMContentLoaded", function() {
       elem.classList.add("lvl__button");
       elem.innerHTML = el;
       lvlBundle.appendChild(elem);
+
+      elem.addEventListener("click", function(e) {
+        e.preventDefault();
+        console.log("dziala");
+        categoryStart();
+      });
     });
   };
 
@@ -62,22 +68,18 @@ document.addEventListener("DOMContentLoaded", function() {
       elem.classList.add("category__button");
       elem.innerHTML = el;
       categoryBundle.appendChild(elem);
+
+      elem.addEventListener("click", function(e) {
+        e.preventDefault();
+        questionFrame();
+      });
     });
   };
 
+  //start
   btnStart.addEventListener("click", function(e) {
     e.preventDefault();
     lvlStart();
-
-    const btnsLvl = document.getElementsByClassName("lvl__button");
-    for (const el of btnsLvl) {
-      el.addEventListener("click", function(e) {
-        e.preventDefault();
-        categoryStart();
-      });
-    }
-
-    console.log(btnsLvl.length);
   });
 
   //question creator
@@ -92,7 +94,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const quesTitle = document.createElement("div");
     quesTitle.classList.add("question__title");
-    quesTitle.innerHTML = "pytanie pytanie pytanie";
+    quesTitle.innerHTML =
+      "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?";
 
     const quesAnswerBundler = document.createElement("div");
     quesAnswerBundler.classList.add("question__answer");
@@ -104,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
     for (let i = 0; i < 4; i++) {
       const quesAnswer = document.createElement("button");
       quesAnswer.classList.add("question__answerBtn");
-      quesAnswer.innerHTML = i;
+      quesAnswer.innerHTML = "1993";
       quesAnswerBundler.appendChild(quesAnswer);
     }
   };

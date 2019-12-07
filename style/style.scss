@@ -4,6 +4,7 @@
 //main
 .container {
   margin: 3em;
+  background-color: $slytherinDarkGrey;
 }
 
 //static
@@ -31,6 +32,42 @@
 .playTutorial {
   font-family: $fontSide;
   font-size: 1.5em;
+}
+
+.playTutorial__button--start {
+  margin: auto;
+  display: block;
+}
+
+.lvl__bundle,
+.category__bundle {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lvl__button,
+.category__button {
+  margin: 0.5em;
+}
+
+.question__frame {
+  margin: 1em 0;
+}
+
+.question__title {
+  margin: 0.5em;
+}
+
+.question__answer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.question__answerBtn {
+  margin: 2em 5em;
+  padding: 0.5em 3em;
 }
 
 .footer {
