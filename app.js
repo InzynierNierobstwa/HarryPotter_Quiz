@@ -3,20 +3,22 @@ document.addEventListener("DOMContentLoaded", function() {
   const sectionPlace = document.querySelector(".playTutorial");
 
   //xmlhttp
-  const xhr = new XMLHttpRequest();
-  xhr.addEventListener("load", function() {
-    if (xhr.status === 200) {
-      const json = JSON.parse(xhr.response);
-      console.log(json.characters);
-    }
-  });
+  let loadQuestion = function(){
+    const xhr = new XMLHttpRequest();
 
-  xhr.addEventListener("error", function() {
-    alert("nie udalo sie nawiazac polaczenia");
+    xhr.addEventListener("load",  function() {
+      if (xhr.status === 200) {
+          const json = JSON.parse(this.responseText);
+          console.log(json);
+      }
+      let htmlJson = json[0].language;
+      console.log(htmlJson);
   });
-
+  
   xhr.open("GET", "/json/database.json", true);
   xhr.send();
+  }
+  loadQuestion();
 
   //randomquestion
   const mathRandom = function() {
@@ -31,24 +33,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const lvlTable = ["easy", "medium", "hard", "mix"];
     let elem;
-    let arrayElem = [];
 
     lvlTable.forEach(function(el) {
       elem = document.createElement("button");
       elem.classList.add("lvl__button");
       elem.innerHTML = el;
       lvlBundle.appendChild(elem);
-      arrayElem.push(elem);
+      
       elem.addEventListener("click", function(e) {
         e.preventDefault();
         categoryStart();
       });
     });
-
-    console.log(arrayElem.length);
-    if (arrayElem.length > 4) {
-      console.log("powyzej 4");
-    }
   };
 
   //category panel
@@ -88,9 +84,33 @@ document.addEventListener("DOMContentLoaded", function() {
     lvlStart();
   });
 
+  //grab info about lvl and category
+ const listener = {
+   lvl : function(){
+    document.addEventListener('click',function(event){
+      if(event.target.classList.contains("lvl__button")){
+        console.log(event.target.innerHTML);
+       }
+   });
+   return event.target.innerHTML;
+   },
+   category: function(){
+    document.addEventListener('click',function(event){
+      if(event.target.classList.contains("category__button")){
+        console.log(event.target.innerHTML);
+       }
+   });
+   return event.target.innerHTML;
+   }
+ }
+
+ listener.lvl();
+ listener.category();
+
+ 
   //question creator
   const questionCreator = function(lvl, category) {
-    /*     question.innerHTML = ; */
+    
   };
 
   //question frame creator
