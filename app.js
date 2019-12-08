@@ -2,27 +2,22 @@ document.addEventListener("DOMContentLoaded", function() {
   const btnStart = document.querySelector(".playTutorial__button--start");
   const sectionPlace = document.querySelector(".playTutorial");
 
-  //xmlhttp
-  let loadQuestion = function(){
-    const xhr = new XMLHttpRequest();
-
-    xhr.addEventListener("load",  function() {
-      if (xhr.status === 200) {
-          const json = JSON.parse(this.responseText);
-          console.log(json);
-      }
-      let htmlJson = json[0].language;
-      console.log(htmlJson);
-  });
-  
-  xhr.open("GET", "/json/database.json", true);
-  xhr.send();
-  }
-  loadQuestion();
-
   //randomquestion
   const mathRandom = function() {
     return Math.floor(Math.random() * 8 + 1);
+  };
+
+  //xmlhttp
+  const loadQuestion = function() {
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", "/json/database.json", true);
+
+    xhr.onload = function() {
+      if (this.status == 200) {
+        question = JSON.parse(this.responseText);
+      }
+    };
+    xhr.send();
   };
 
   //lvl panel
@@ -39,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
       elem.classList.add("lvl__button");
       elem.innerHTML = el;
       lvlBundle.appendChild(elem);
-      
+
       elem.addEventListener("click", function(e) {
         e.preventDefault();
         categoryStart();
@@ -73,9 +68,29 @@ document.addEventListener("DOMContentLoaded", function() {
 
       elem.addEventListener("click", function(e) {
         e.preventDefault();
-        questionFrame();
+        questionFrame(loadQuestion().innerText);
       });
     });
+  };
+
+  //grab info about lvl and category
+  const listener = {
+    lvl: function() {
+      document.addEventListener("click", function(event) {
+        if (event.target.classList.contains("lvl__button")) {
+          console.log(event.target.innerHTML);
+        }
+      });
+      return event.target.innerHTML;
+    },
+    category: function() {
+      document.addEventListener("click", function(event) {
+        if (event.target.classList.contains("category__button")) {
+          console.log(event.target.innerHTML);
+        }
+      });
+      return event.target.innerHTML;
+    }
   };
 
   //start
@@ -84,44 +99,20 @@ document.addEventListener("DOMContentLoaded", function() {
     lvlStart();
   });
 
-  //grab info about lvl and category
- const listener = {
-   lvl : function(){
-    document.addEventListener('click',function(event){
-      if(event.target.classList.contains("lvl__button")){
-        console.log(event.target.innerHTML);
-       }
-   });
-   return event.target.innerHTML;
-   },
-   category: function(){
-    document.addEventListener('click',function(event){
-      if(event.target.classList.contains("category__button")){
-        console.log(event.target.innerHTML);
-       }
-   });
-   return event.target.innerHTML;
-   }
- }
+  listener.lvl();
+  listener.category();
 
- listener.lvl();
- listener.category();
-
- 
-  //question creator
-  const questionCreator = function(lvl, category) {
-    
-  };
+  let test = listener.lvl();
+  console.log(test);
 
   //question frame creator
-  const questionFrame = function() {
+  const questionFrame = function(question, answer) {
     const quesFrame = document.createElement("div");
     quesFrame.classList.add("question__frame");
 
     const quesTitle = document.createElement("div");
     quesTitle.classList.add("question__title");
-    quesTitle.innerHTML =
-      "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?";
+    quesTitle.innerHTML = question;
 
     const quesAnswerBundler = document.createElement("div");
     quesAnswerBundler.classList.add("question__answer");
