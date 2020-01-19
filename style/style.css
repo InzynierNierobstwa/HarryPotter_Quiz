@@ -1,6 +1,6 @@
 .playTutorial__button--start,
-.lvl__button,
-.category__button,
+.lvlBundle__button,
+.categoryBundle__button,
 .question__answerBtn {
   -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
           box-shadow: inset 0px 1px 0px 0px #ffffff;
@@ -21,8 +21,8 @@
 }
 
 .playTutorial__button--start:hover,
-.lvl__button:hover,
-.category__button:hover,
+.lvlBundle__button:hover,
+.categoryBundle__button:hover,
 .question__answerBtn:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #e9e9e9), to(#f9f9f9));
   background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
@@ -30,8 +30,8 @@
 }
 
 .playTutorial__button--start:active,
-.lvl__button:active,
-.category__button:active,
+.lvlBundle__button:active,
+.categoryBundle__button:active,
 .question__answerBtn:hover {
   position: relative;
   top: 1px;
@@ -70,15 +70,22 @@
 .playTutorial {
   font-family: "Lato", sans-serif;
   font-size: 1.5em;
+  margin: 1em 0 3em 0;
 }
 
 .playTutorial__button--start {
+  font-size: 1.5em;
   margin: auto;
   display: block;
 }
 
-.lvl__bundle,
-.category__bundle {
+.lvlBundle__container,
+.categoryBundle__container {
+  margin: 1em 0;
+}
+
+.lvlBundle__container,
+.categoryBundle__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,9 +96,9 @@
       flex-wrap: wrap;
 }
 
-.lvl__button,
-.category__button {
-  margin: 0.5em;
+.lvlBundle__button,
+.categoryBundle__button {
+  margin: 0.2em 0.5em;
 }
 
 .question__frame {

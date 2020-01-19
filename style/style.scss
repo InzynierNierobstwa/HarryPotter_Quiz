@@ -32,23 +32,30 @@
 .playTutorial {
   font-family: $fontSide;
   font-size: 1.5em;
+  margin: 1em 0 3em 0;
 }
 
 .playTutorial__button--start {
+  font-size: 1.5em;
   margin: auto;
   display: block;
 }
 
-.lvl__bundle,
-.category__bundle {
+.lvlBundle__container,
+.categoryBundle__container {
+  margin: 1em 0;
+}
+
+.lvlBundle__container,
+.categoryBundle__container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.lvl__button,
-.category__button {
-  margin: 0.5em;
+.lvlBundle__button,
+.categoryBundle__button {
+  margin: 0.2em 0.5em;
 }
 
 .question__frame {
