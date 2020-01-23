@@ -1,7 +1,7 @@
 {
-  "character": [
+  "postaci": [
     {
-      "easy": [
+      "latwy": [
         {
           "id": 0,
           "question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?",
@@ -81,7 +81,7 @@
           ],
           "answerD": [
             {
-              "answer": "Molly Weslay",
+              "answer": "Ron Weslay",
               "correct": 0
             }
           ]
@@ -215,7 +215,7 @@
           ],
           "answerC": [
             {
-              "answer": "Draco Malfoy",
+              "answer": "xxx xxx",
               "correct": 0
             }
           ],
@@ -228,56 +228,282 @@
         },
         {
           "id": 8,
-          "question": "",
+          "question": "Jak nazywala sie szkola, w ktorej glowny nacisk kladzono na zielarstwo?",
           "answerA": [
             {
-              "answer": "",
+              "answer": "Durmstrang Institute",
               "correct": 0
             }
           ],
           "answerB": [
             {
-              "answer": "",
-              "correct": 0
+              "answer": "Castelobruxo",
+              "correct": 1
             }
           ],
           "answerC": [
             {
-              "answer": "",
+              "answer": "Beauxbatons Academy of Magic",
               "correct": 0
             }
           ],
           "answerD": [
             {
-              "answer": "",
+              "answer": "Mahoutokoro School of Magic",
+              "correct": 0
+            }
+          ]
+        }
+      ],
+      "sredni": [
+        {
+          "id": 0,
+          "question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?",
+          "answerA": [
+            {
+              "answer": "1991",
+              "correct": 0
+            }
+          ],
+          "answerB": [
+            {
+              "answer": "1993",
+              "correct": 0
+            }
+          ],
+          "answerC": [
+            {
+              "answer": "1990",
+              "correct": 1
+            }
+          ],
+          "answerD": [
+            {
+              "answer": "1989",
               "correct": 0
             }
           ]
         },
         {
-          "id": 9,
-          "question": "",
+          "id": 1,
+          "question": "Kto zabil Severusa Snapea?",
           "answerA": [
             {
-              "answer": "",
+              "answer": "Voldemort",
               "correct": 0
             }
           ],
           "answerB": [
             {
-              "answer": "",
+              "answer": "Harry Potter",
               "correct": 0
             }
           ],
           "answerC": [
             {
-              "answer": "",
+              "answer": "Draco Malfoy",
               "correct": 0
             }
           ],
           "answerD": [
             {
-              "answer": "",
+              "answer": "Nagini",
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Kto nie nalezal do Zakonu Feniksa?",
+          "answerA": [
+            {
+              "answer": "Lily Potter",
+              "correct": 0
+            }
+          ],
+          "answerB": [
+            {
+              "answer": "Nevil Longbottom",
+              "correct": 1
+            }
+          ],
+          "answerC": [
+            {
+              "answer": "Severus Snape",
+              "correct": 0
+            }
+          ],
+          "answerD": [
+            {
+              "answer": "Ron Weslay",
+              "correct": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Kim byli rodzice Hermiony Granger?",
+          "answerA": [
+            {
+              "answer": "bankowcami",
+              "correct": 0
+            }
+          ],
+          "answerB": [
+            {
+              "answer": "dentystami",
+              "correct": 1
+            }
+          ],
+          "answerC": [
+            {
+              "answer": "kierowcami",
+              "correct": 0
+            }
+          ],
+          "answerD": [
+            {
+              "answer": "sprzedawcami",
+              "correct": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Ile dzieci mieli panstwo Weslay?",
+          "answerA": [
+            {
+              "answer": "8",
+              "correct": 0
+            }
+          ],
+          "answerB": [
+            {
+              "answer": "5",
+              "correct": 0
+            }
+          ],
+          "answerC": [
+            {
+              "answer": "3",
+              "correct": 0
+            }
+          ],
+          "answerD": [
+            {
+              "answer": "7",
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?",
+          "answerA": [
+            {
+              "answer": "1991",
+              "correct": 0
+            }
+          ],
+          "answerB": [
+            {
+              "answer": "1993",
+              "correct": 0
+            }
+          ],
+          "answerC": [
+            {
+              "answer": "1990",
+              "correct": 1
+            }
+          ],
+          "answerD": [
+            {
+              "answer": "1989",
+              "correct": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "question": "Kto byl wlascicielem czarnej rozdzki po smierci Albusa Dumbledora?",
+          "answerA": [
+            {
+              "answer": "Harry Potter",
+              "correct": 0
+            }
+          ],
+          "answerB": [
+            {
+              "answer": "Draco Malfoy",
+              "correct": 1
+            }
+          ],
+          "answerC": [
+            {
+              "answer": "Bellatriks Lestrange",
+              "correct": 0
+            }
+          ],
+          "answerD": [
+            {
+              "answer": "Severus Snape",
+              "correct": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "question": "Kto zastapil Pomore Sprout na pozycji nauczyciela Zielarstwa?",
+          "answerA": [
+            {
+              "answer": "Herbert Beery",
+              "correct": 0
+            }
+          ],
+          "answerB": [
+            {
+              "answer": "Hermiona Granger",
+              "correct": 0
+            }
+          ],
+          "answerC": [
+            {
+              "answer": "xxx xxx",
+              "correct": 0
+            }
+          ],
+          "answerD": [
+            {
+              "answer": "Neville Longbottom",
+              "correct": 1
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "question": "Jak nazywala sie szkola, w ktorej glowny nacisk kladzono na zielarstwo?",
+          "answerA": [
+            {
+              "answer": "Durmstrang Institute",
+              "correct": 0
+            }
+          ],
+          "answerB": [
+            {
+              "answer": "Castelobruxo",
+              "correct": 1
+            }
+          ],
+          "answerC": [
+            {
+              "answer": "Beauxbatons Academy of Magic",
+              "correct": 0
+            }
+          ],
+          "answerD": [
+            {
+              "answer": "Mahoutokoro School of Magic",
               "correct": 0
             }
           ]
