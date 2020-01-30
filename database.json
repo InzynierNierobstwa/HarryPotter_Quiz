@@ -1,528 +1,809 @@
 {
-  "characters": [
-    {
-      "id": 0,
-      "level": "easy",
-      "question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?",
-      "answerA": [
-        {
-          "answer": "1991",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "1993",
-          "correct": 0
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "1990",
-          "correct": 1
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "1989",
-          "correct": 0
-        }
-      ]
+	"postaci": [{
+		"latwy": [{
+				"id": 0,
+				"question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?",
+				"answerA": [{
+					"answer": "1991",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "1993",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "1990",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "1989",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 1,
+				"question": "Kto zabil Severusa Snapea?",
+				"answerA": [{
+					"answer": "Voldemort",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Harry Potter",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Draco Malfoy",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Nagini",
+					"correct": 1
+				}]
+			},
+			{
+				"id": 2,
+				"question": "Kto nie nalezal do Zakonu Feniksa?",
+				"answerA": [{
+					"answer": "Lily Potter",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Nevil Longbottom",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Severus Snape",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Ron Weslay",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 3,
+				"question": "Kim byli rodzice Hermiony Granger?",
+				"answerA": [{
+					"answer": "bankowcami",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "dentystami",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "kierowcami",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "sprzedawcami",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 4,
+				"question": "Ile dzieci mieli panstwo Weslay?",
+				"answerA": [{
+					"answer": "8",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "5",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "3",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "7",
+					"correct": 1
+				}]
+			},
+			{
+				"id": 5,
+				"question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?",
+				"answerA": [{
+					"answer": "1991",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "1993",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "1990",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "1989",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 6,
+				"question": "Kto byl wlascicielem czarnej rozdzki po smierci Albusa Dumbledora?",
+				"answerA": [{
+					"answer": "Harry Potter",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Draco Malfoy",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Bellatriks Lestrange",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Severus Snape",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 7,
+				"question": "Kto zastapil Pomore Sprout na pozycji nauczyciela Zielarstwa?",
+				"answerA": [{
+					"answer": "Herbert Beery",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Hermiona Granger",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Severus Snape",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Neville Longbottom",
+					"correct": 1
+				}]
+			},
+			{
+				"id": 8,
+				"question": "Jakiego stworzenia panicznie bał się Ron Wesleay?",
+				"answerA": [{
+					"answer": "nieśmiałka",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "chimery",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "pająka",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "goblina",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 9,
+				"question": "Jak nazywano dom Państwa Wesleayów?",
+				"answerA": [{
+					"answer": "chata",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "pokątna",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "muszelka",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "nora",
+					"correct": 1
+				}]
+			},
+			{
+				"id": 10,
+				"question": "Kto odnazał Rona i Harrego po rozbiciu Forda Anglia?",
+				"answerA": [{
+					"answer": "Minewra McGonagall",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Rebeus Hagrid",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Fred Weseleay",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Severus Snape",
+					"correct": 1
+				}]
+			},
+			{
+				"id": 11,
+				"question": "Kto prowadził zajęcia z wróżbiarstwa?",
+				"answerA": [{
+					"answer": "Albus Dumbledore",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Sybilla Trelawney",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Minewra McGonagall",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Severus Snape",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 12,
+				"question": "Kto został Wielkim Inkwizytorem Hogwartu?",
+				"answerA": [{
+					"answer": "Albus Dumbledore",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Lucjusz Malfoy",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Dolores Umbridge",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "Korneliusz Knot",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 13,
+				"question": "Jak nazywał się woźny Hogwartu?",
+				"answerA": [{
+					"answer": "Argus Filch",
+					"correct": 1
+				}],
+				"answerB": [{
+					"answer": "Barty Crouch",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Dolores Umbridge",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Apollion Pringle",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 14,
+				"question": "Jaką organizację założyła Hermiona Granger?",
+				"answerA": [{
+					"answer": "Klub Ślimaka",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "WESZ",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Gwardia Dumbledore'a",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "Departament Magii",
+					"correct": 0
+				}]
+			}
+		],
+		"sredni": [{
+				"id": 0,
+				"question": "Kto został strażnikiem tajemnicy Potterów?",
+				"answerA": [{
+					"answer": "Peter Pettigrew",
+					"correct": 1
+				}],
+				"answerB": [{
+					"answer": "Remus Lupin",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Syriusz Black",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Andromeda Tonks",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 1,
+				"question": "Gdzie mieszkała rodzinna Potterów w roku 1981?",
+				"answerA": [{
+					"answer": "Hogsmeade",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Dolina Godryka",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Little Hangleton",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Place Cachee",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 2,
+				"question": "Jakie imię przyjął Harry Potter na weselu Fleur i Billa?",
+				"answerA": [{
+					"answer": "James",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Anthony",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Barny",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "Vernon",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 3,
+				"question": "Na jakiej miotle latał Harry Potter w Czarze Ognia?",
+				"answerA": [{
+					"answer": "Nimbus 2000",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Nimbus 2001",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Błyskawica",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "Zmiatacz 11",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 4,
+				"question": "Z jakich domów pochodzili uczestnicy Turnieju Trójmagicznego?",
+				"answerA": [{
+					"answer": "Gryfindor i Ravenclaw",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Gryfindor i Hufflepuff",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Hufflepuff i Ravenclaw",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Hufflepuff i Slyterin",
+					"correct": 0
+				}]
+      },
+      {
+				"id": 5,
+				"question": "Kto został zamordowany aby odrodzić Lorda Voldemorta?",
+				"answerA": [{
+					"answer": "Marta Warren",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Augustus Rookwood",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Berta Jorkins",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "Dirk Cresswell",
+					"correct": 0
+				}]
+      },
+      {
+				"id": 6,
+				"question": "Kto był opiekunem Ravenclavu?",
+				"answerA": [{
+					"answer": "Severus Snape",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Filius Flitwick",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Mierwa McGonagall",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Pomora Sprout",
+					"correct": 0
+				}]
+      },
+      {
+				"id": 7,
+				"question": "Kto podszywał się pod Alastora Moodyego?",
+				"answerA": [{
+					"answer": "Rebastan Lestrange",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Corban Yaxley",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Bartemiusz Crouch ",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Bartemiusz Crouch Jr",
+					"correct": 0
+				}]
+      },
+      {
+				"id": 8,
+				"question": "Kto podszywał się pod Alastora Moodyego?",
+				"answerA": [{
+					"answer": "Rebastan Lestrange",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Corban Yaxley",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Bartemiusz Crouch ",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Bartemiusz Crouch Jr",
+					"correct": 0
+				}]
+      },
+      {
+				"id": 9,
+				"question": "Gdzie pracował Bill Weslay?",
+				"answerA": [{
+					"answer": "Ministerstwo Magii",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Bank Gringotta",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Szpital Świętego Munga",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Sklep Zonka",
+					"correct": 0
+				}]
+      },
+      {
+				"id": 10,
+				"question": "Czyim asystentem był Percy Weslay na początku pracy w Ministerstwie?",
+				"answerA": [{
+					"answer": "Bartemiusza Croucha",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Lucjusza Malfoya",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Penelopa Clearwater",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Minerwy McGonagall",
+					"correct": 0
+				}]
+      },
+      {
+				"id": 11,
+				"question": "xxx?",
+				"answerA": [{
+					"answer": "Bartemiusza Croucha",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Lucjusza Malfoya",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Penelopa Clearwater",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Minerwy McGonagall",
+					"correct": 0
+				}]
+			}
+		],
+		"trudny": [{
+			"id": 0,
+			"question": "Kto naśmiewał się z Marty w dniu jej śmierci?",
+			"answerA": [{
+				"answer": "Tom Riddle",
+				"correct": 1
+			}],
+			"answerB": [{
+				"answer": "Oliwia Hornby",
+				"correct": 1
+			}],
+			"answerC": [{
+				"answer": "Pansy Parkinson",
+				"correct": 0
+			}],
+			"answerD": [{
+				"answer": "Lavender Brown",
+				"correct": 0
+			}]
     },
     {
       "id": 1,
-      "level": "easy",
-      "question": "Kto zabil Severusa Snapea?",
-      "answerA": [
-        {
-          "answer": "Voldemort",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "Harry Potter",
-          "correct": 0
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "Draco Malfoy",
-          "correct": 0
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "Nagini",
-          "correct": 1
-        }
-      ]
+      "question": "Kto zabił Lavender Brown?",
+      "answerA": [{
+        "answer": "Draco Malfoy",
+        "correct": 0
+      }],
+      "answerB": [{
+        "answer": "Barty Crouch",
+        "correct": 0
+      }],
+      "answerC": [{
+        "answer": "Fenrir Greyback",
+        "correct": 1
+      }],
+      "answerD": [{
+        "answer": "Bellatriks Lestrange",
+        "correct": 0
+      }]
     },
     {
       "id": 2,
-      "level": "easy",
-      "question": "Kto nie nalezal do Zakonu Feniksa?",
-      "answerA": [
-        {
-          "answer": "Lily Potter",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "Nevil Longbottom",
-          "correct": 1
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "Severus Snape",
-          "correct": 0
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "Ron Weslay",
-          "correct": 0
-        }
-      ]
+      "question": "Kim dla Bellatriks Lestrange był Ted Tonks?",
+      "answerA": [{
+        "answer": "szwagrem",
+        "correct": 1
+      }],
+      "answerB": [{
+        "answer": "kuzynem",
+        "correct": 0
+      }],
+      "answerC": [{
+        "answer": "bratem",
+        "correct": 0
+      }],
+      "answerD": [{
+        "answer": "wujkiem",
+        "correct": 0
+      }]
     },
     {
       "id": 3,
-      "level": "easy",
-      "question": "Kim byli rodzice Hermiony Granger?",
-      "answerA": [
-        {
-          "answer": "bankowcami",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "dentystami",
-          "correct": 1
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "kierowcami",
-          "correct": 0
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "sprzedawcami",
-          "correct": 0
-        }
-      ]
+      "question": "Kto nie należał do Klubu Ślimaka?",
+      "answerA": [{
+        "answer": "Lucjusz Malfoy",
+        "correct": 0
+      }],
+      "answerB": [{
+        "answer": "Hermiona Granger",
+        "correct": 0
+      }],
+      "answerC": [{
+        "answer": "Hestia Carrow",
+        "correct": 0
+      }],
+      "answerD": [{
+        "answer": "Draco Malfoy",
+        "correct": 1
+      }]
     },
     {
       "id": 4,
-      "level": "easy",
-      "question": "Ile dzieci mieli panstwo Weslay?",
-      "answerA": [
-        {
-          "answer": "8",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "5",
-          "correct": 0
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "3",
-          "correct": 0
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "7",
-          "correct": 1
-        }
-      ]
+      "question": "Który z uczniów był Hatstall?",
+      "answerA": [{
+        "answer": "Gilderoy Lockhart",
+        "correct": 0
+      }],
+      "answerB": [{
+        "answer": "Peter Pettigrew ",
+        "correct": 1
+      }],
+      "answerC": [{
+        "answer": "Filius Flitwick",
+        "correct": 0
+      }],
+      "answerD": [{
+        "answer": "Hermiona Granger",
+        "correct": 0
+      }]
     },
     {
       "id": 5,
-      "level": "easy",
-      "question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?",
-      "answerA": [
-        {
-          "answer": "1991",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "1993",
-          "correct": 0
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "1990",
-          "correct": 1
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "1989",
-          "correct": 0
-        }
-      ]
+      "question": "Czyjego włosa powinna użyć Hermiona w swoim Eliksirze Wielosokowym?",
+      "answerA": [{
+        "answer": "Millicenty Bulstrode",
+        "correct": 1
+      }],
+      "answerB": [{
+        "answer": "Marty Warren",
+        "correct": 0
+      }],
+      "answerC": [{
+        "answer": "Hestia Carrow",
+        "correct": 0
+      }],
+      "answerD": [{
+        "answer": "Pansy Parkinson",
+        "correct": 0
+      }]
     },
     {
       "id": 6,
-      "level": "easy",
-      "question": "Kto byl wlascicielem czarnej rozdzki po smierci Albusa Dumbledora?",
-      "answerA": [
-        {
-          "answer": "Harry Potter",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "Draco Malfoy",
-          "correct": 1
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "Bellatriks Lestrange",
-          "correct": 0
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "Severus Snape",
-          "correct": 0
-        }
-      ]
+      "question": "Kto doniósł o spotkaniach Gwardii Dumbledora?",
+      "answerA": [{
+        "answer": "Millicenty Bulstrode",
+        "correct": 0
+      }],
+      "answerB": [{
+        "answer": "Marietta Edgecombe",
+        "correct": 1
+      }],
+      "answerC": [{
+        "answer": "Draco Malfoy",
+        "correct": 0
+      }],
+      "answerD": [{
+        "answer": "Pansy Parkinson",
+        "correct": 0
+      }]
     },
     {
       "id": 7,
-      "level": "easy",
-      "question": "Kto zastapil Pomore Sprout na pozycji nauczyciela Zielarstwa?",
-      "answerA": [
-        {
-          "answer": "Herbert Beery",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "Hermiona Granger",
-          "correct": 0
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "xxx xxx",
-          "correct": 0
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "Neville Longbottom",
-          "correct": 1
-        }
-      ]
+      "question": "Kto był właścicielem Dziurawego Kotła?",
+      "answerA": [{
+        "answer": "Jerry",
+        "correct": 0
+      }],
+      "answerB": [{
+        "answer": "Bredy",
+        "correct": 0
+      }],
+      "answerC": [{
+        "answer": "Tom",
+        "correct": 1
+      }],
+      "answerD": [{
+        "answer": "John",
+        "correct": 0
+      }]
     },
     {
       "id": 8,
-      "level": "hard",
-      "question": "Jak nazywala sie szkola, w ktorej glowny nacisk kladzono na zielarstwo?",
-      "answerA": [
-        {
-          "answer": "Durmstrang Institute",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "Castelobruxo",
-          "correct": 1
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "Beauxbatons Academy of Magic",
-          "correct": 0
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "Mahoutokoro School of Magic",
-          "correct": 0
-        }
-      ]
-    }
-  ],
-  "herbology": [
-    {
-      "id": 0,
-      "level": "easy",
-      "question": "Jaka roslina wyleczyla spetryfikowanych uczniów po ataku bazyliszka?",
-      "answerA": [
-        {
-          "answer": "Diabelskie Sidla",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "Mandragora",
-          "correct": 1
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "Valeriana",
-          "correct": 0
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "Skaczaca Cebulka",
-          "correct": 0
-        }
-      ]
+      "question": "Kto był dyrektorem Hoghwartu kiedy Tom Riddle do niej uczęszczał?",
+      "answerA": [{
+        "answer": "Albus Dumbledore",
+        "correct": 0
+      }],
+      "answerB": [{
+        "answer": "Walter Aragon",
+        "correct": 0
+      }],
+      "answerC": [{
+        "answer": "Bazyl Fronsac",
+        "correct": 0
+      }],
+      "answerD": [{
+        "answer": "Armando Dippet",
+        "correct": 1
+      }]
     },
     {
-      "id": 1,
-      "level": "easy",
-      "question": "Jaka ksiazke dostal Nevile Longbotomm?",
-      "answerA": [
-        {
-          "answer": "Encyklopedia muchomorów",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "Niezwykłe rośliny wodne Winogranda",
-          "correct": 0
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "Śródziemnomorskie magiczne rośliny wodne i ich właściwości",
-          "correct": 1
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "Mięsożerne drzewa świata",
-          "correct": 0
-        }
-      ]
+      "id": 9,
+      "question": "Kto nie potrafił używać oklumencji?",
+      "answerA": [{
+        "answer": "Albus Dumbledore",
+        "correct": 0
+      }],
+      "answerB": [{
+        "answer": "Draco Malfoy",
+        "correct": 0
+      }],
+      "answerC": [{
+        "answer": "Bellatriks Lestrange",
+        "correct": 0
+      }],
+      "answerD": [{
+        "answer": "Harry Potter",
+        "correct": 1
+      }]
     },
     {
-      "id": 2,
-      "level": "easy",
-      "question": "Jaka roslina zatrzymala Forda Anglie?",
-      "answerA": [
-        {
-          "answer": "czyrakobulwa",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "wierzba bijaca",
-          "correct": 1
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "dźieżba bijaca",
-          "correct": 0
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "mieta",
-          "correct": 0
-        }
-      ]
+      "id": 10,
+      "question": "Z jakiego kraju pochodził Wiktor Krum?",
+      "answerA": [{
+        "answer": "Dani",
+        "correct": 0
+      }],
+      "answerB": [{
+        "answer": "Belgi",
+        "correct": 0
+      }],
+      "answerC": [{
+        "answer": "Bułgari",
+        "correct": 1
+      }],
+      "answerD": [{
+        "answer": "Białorusi",
+        "correct": 1
+      }]
     },
     {
-      "id": 3,
-      "level": "easy",
-      "question": "Co leczyla ropa z czyrakobulwy?",
-      "answerA": [
-        {
-          "answer": "przeziebienie",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "zlamania",
-          "correct": 0
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "tradzik",
-          "correct": 1
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "reumatoidalne zapalenie stawow",
-          "correct": 0
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "level": "easy",
-      "question": "O jaka rosline zapytal sie Severus Snape na pierwszej lekcji eliksirow Harrego Pottera?",
-      "answerA": [
-        {
-          "answer": "ciemiernik",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "miete",
-          "correct": 0
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "o kore z drzewa Wiggen",
-          "correct": 0
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "tojad",
-          "correct": 1
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "level": "easy",
-      "question": "Jaka roslina ugryzla Dracona Malfoya podczas zajec zielarstwa?",
-      "answerA": [
-        {
-          "answer": "Mandragora",
-          "correct": 1
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "Klaposkrzeczki",
-          "correct": 0
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "Trzepotka",
-          "correct": 0
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "Dyptam",
-          "correct": 0
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "level": "easy",
-      "question": "Jakim zakleciem mozna bylo pokonac skaczace cebulki",
-      "answerA": [
-        {
-          "answer": "Depulso",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "Lumos",
-          "correct": 0
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "Crucio",
-          "correct": 0
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "Flipendo",
-          "correct": 1
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "level": "medium",
-      "question": "Z jakiej skóry zrobione byly rekawice, ktorych uzywala Pomona Sprout?",
-      "answerA": [
-        {
-          "answer": "wilczej",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "gryfiej",
-          "correct": 0
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "smoczej",
-          "correct": 1
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "psiej",
-          "correct": 0
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "level": "hard",
-      "question": "W jakiej klasie byly prowadzone zajecia z zielarstwa?",
-      "answerA": [
-        {
-          "answer": "93",
-          "correct": 0
-        }
-      ],
-      "answerB": [
-        {
-          "answer": "100",
-          "correct": 0
-        }
-      ],
-      "answerC": [
-        {
-          "answer": "20",
-          "correct": 0
-        }
-      ],
-      "answerD": [
-        {
-          "answer": "102",
-          "correct": 1
-        }
-      ]
+      "id": 11,
+      "question": "Z jakiego kraju pochodził Wiktor Krum?",
+      "answerA": [{
+        "answer": "Dani",
+        "correct": 0
+      }],
+      "answerB": [{
+        "answer": "Belgi",
+        "correct": 0
+      }],
+      "answerC": [{
+        "answer": "Bułgari",
+        "correct": 1
+      }],
+      "answerD": [{
+        "answer": "Białorusi",
+        "correct": 1
+      }]
     }
   ]
+  }],
+  "zaklęcia": [{
+		"latwy": [{
+				"id": 0,
+				"question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?",
+				"answerA": [{
+					"answer": "1991",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "1993",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "1990",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "1989",
+					"correct": 0
+				}]
+      }]
+  }]
 }
