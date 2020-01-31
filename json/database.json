@@ -400,8 +400,8 @@
 					"answer": "Hufflepuff i Slyterin",
 					"correct": 0
 				}]
-      },
-      {
+			},
+			{
 				"id": 5,
 				"question": "Kto został zamordowany aby odrodzić Lorda Voldemorta?",
 				"answerA": [{
@@ -420,8 +420,8 @@
 					"answer": "Dirk Cresswell",
 					"correct": 0
 				}]
-      },
-      {
+			},
+			{
 				"id": 6,
 				"question": "Kto był opiekunem Ravenclavu?",
 				"answerA": [{
@@ -440,8 +440,8 @@
 					"answer": "Pomora Sprout",
 					"correct": 0
 				}]
-      },
-      {
+			},
+			{
 				"id": 7,
 				"question": "Kto podszywał się pod Alastora Moodyego?",
 				"answerA": [{
@@ -460,8 +460,8 @@
 					"answer": "Bartemiusz Crouch Jr",
 					"correct": 0
 				}]
-      },
-      {
+			},
+			{
 				"id": 8,
 				"question": "Kto podszywał się pod Alastora Moodyego?",
 				"answerA": [{
@@ -480,8 +480,8 @@
 					"answer": "Bartemiusz Crouch Jr",
 					"correct": 0
 				}]
-      },
-      {
+			},
+			{
 				"id": 9,
 				"question": "Gdzie pracował Bill Weslay?",
 				"answerA": [{
@@ -500,8 +500,8 @@
 					"answer": "Sklep Zonka",
 					"correct": 0
 				}]
-      },
-      {
+			},
+			{
 				"id": 10,
 				"question": "Czyim asystentem był Percy Weslay na początku pracy w Ministerstwie?",
 				"answerA": [{
@@ -520,8 +520,8 @@
 					"answer": "Minerwy McGonagall",
 					"correct": 0
 				}]
-      },
-      {
+			},
+			{
 				"id": 11,
 				"question": "Jak miał na imię Crabbe?",
 				"answerA": [{
@@ -541,7 +541,7 @@
 					"correct": 0
 				}]
 			},
-			         {
+			{
 				"id": 12,
 				"question": "Jak na imię miała matka Rebeusa Hagrida?",
 				"answerA": [{
@@ -561,7 +561,7 @@
 					"correct": 0
 				}]
 			},
-			   			         {
+			{
 				"id": 13,
 				"question": "Kto przekazał pelerynę rodzinie Potterów?",
 				"answerA": [{
@@ -581,7 +581,7 @@
 					"correct": 1
 				}]
 			},
-			   			         {
+			{
 				"id": 14,
 				"question": "Jak na imię miała matka Toma Riddla?",
 				"answerA": [{
@@ -603,327 +603,1210 @@
 			}
 		],
 		"trudny": [{
-			"id": 0,
-			"question": "Kto naśmiewał się z Marty w dniu jej śmierci?",
-			"answerA": [{
-				"answer": "Tom Riddle",
-				"correct": 1
-			}],
-			"answerB": [{
-				"answer": "Oliwia Hornby",
-				"correct": 1
-			}],
-			"answerC": [{
-				"answer": "Pansy Parkinson",
-				"correct": 0
-			}],
-			"answerD": [{
-				"answer": "Lavender Brown",
-				"correct": 0
-			}]
-    },
-    {
-      "id": 1,
-      "question": "Kto zabił Lavender Brown?",
-      "answerA": [{
-        "answer": "Draco Malfoy",
-        "correct": 0
-      }],
-      "answerB": [{
-        "answer": "Barty Crouch",
-        "correct": 0
-      }],
-      "answerC": [{
-        "answer": "Fenrir Greyback",
-        "correct": 1
-      }],
-      "answerD": [{
-        "answer": "Bellatriks Lestrange",
-        "correct": 0
-      }]
-    },
-    {
-      "id": 2,
-      "question": "Kim dla Bellatriks Lestrange był Ted Tonks?",
-      "answerA": [{
-        "answer": "szwagrem",
-        "correct": 1
-      }],
-      "answerB": [{
-        "answer": "kuzynem",
-        "correct": 0
-      }],
-      "answerC": [{
-        "answer": "bratem",
-        "correct": 0
-      }],
-      "answerD": [{
-        "answer": "wujkiem",
-        "correct": 0
-      }]
-    },
-    {
-      "id": 3,
-      "question": "Kto nie należał do Klubu Ślimaka?",
-      "answerA": [{
-        "answer": "Lucjusz Malfoy",
-        "correct": 0
-      }],
-      "answerB": [{
-        "answer": "Hermiona Granger",
-        "correct": 0
-      }],
-      "answerC": [{
-        "answer": "Hestia Carrow",
-        "correct": 0
-      }],
-      "answerD": [{
-        "answer": "Draco Malfoy",
-        "correct": 1
-      }]
-    },
-    {
-      "id": 4,
-      "question": "Który z uczniów był Hatstall?",
-      "answerA": [{
-        "answer": "Gilderoy Lockhart",
-        "correct": 0
-      }],
-      "answerB": [{
-        "answer": "Peter Pettigrew ",
-        "correct": 1
-      }],
-      "answerC": [{
-        "answer": "Filius Flitwick",
-        "correct": 0
-      }],
-      "answerD": [{
-        "answer": "Hermiona Granger",
-        "correct": 0
-      }]
-    },
-    {
-      "id": 5,
-      "question": "Czyjego włosa powinna użyć Hermiona w swoim Eliksirze Wielosokowym?",
-      "answerA": [{
-        "answer": "Millicenty Bulstrode",
-        "correct": 1
-      }],
-      "answerB": [{
-        "answer": "Marty Warren",
-        "correct": 0
-      }],
-      "answerC": [{
-        "answer": "Hestia Carrow",
-        "correct": 0
-      }],
-      "answerD": [{
-        "answer": "Pansy Parkinson",
-        "correct": 0
-      }]
-    },
-    {
-      "id": 6,
-      "question": "Kto doniósł o spotkaniach Gwardii Dumbledora?",
-      "answerA": [{
-        "answer": "Millicenty Bulstrode",
-        "correct": 0
-      }],
-      "answerB": [{
-        "answer": "Marietta Edgecombe",
-        "correct": 1
-      }],
-      "answerC": [{
-        "answer": "Draco Malfoy",
-        "correct": 0
-      }],
-      "answerD": [{
-        "answer": "Pansy Parkinson",
-        "correct": 0
-      }]
-    },
-    {
-      "id": 7,
-      "question": "Kto był właścicielem Dziurawego Kotła?",
-      "answerA": [{
-        "answer": "Jerry",
-        "correct": 0
-      }],
-      "answerB": [{
-        "answer": "Bredy",
-        "correct": 0
-      }],
-      "answerC": [{
-        "answer": "Tom",
-        "correct": 1
-      }],
-      "answerD": [{
-        "answer": "John",
-        "correct": 0
-      }]
-    },
-    {
-      "id": 8,
-      "question": "Kto był dyrektorem Hoghwartu kiedy Tom Riddle do niej uczęszczał?",
-      "answerA": [{
-        "answer": "Albus Dumbledore",
-        "correct": 0
-      }],
-      "answerB": [{
-        "answer": "Walter Aragon",
-        "correct": 0
-      }],
-      "answerC": [{
-        "answer": "Bazyl Fronsac",
-        "correct": 0
-      }],
-      "answerD": [{
-        "answer": "Armando Dippet",
-        "correct": 1
-      }]
-    },
-    {
-      "id": 9,
-      "question": "Kto nie potrafił używać oklumencji?",
-      "answerA": [{
-        "answer": "Albus Dumbledore",
-        "correct": 0
-      }],
-      "answerB": [{
-        "answer": "Draco Malfoy",
-        "correct": 0
-      }],
-      "answerC": [{
-        "answer": "Bellatriks Lestrange",
-        "correct": 0
-      }],
-      "answerD": [{
-        "answer": "Harry Potter",
-        "correct": 1
-      }]
-    },
-    {
-      "id": 10,
-      "question": "Z jakiego kraju pochodził Wiktor Krum?",
-      "answerA": [{
-        "answer": "Dani",
-        "correct": 0
-      }],
-      "answerB": [{
-        "answer": "Belgi",
-        "correct": 0
-      }],
-      "answerC": [{
-        "answer": "Bułgari",
-        "correct": 1
-      }],
-      "answerD": [{
-        "answer": "Białorusi",
-        "correct": 1
-      }]
-    },
-    {
-      "id": 11,
-      "question": "Z jakiego kraju pochodził Wiktor Krum?",
-      "answerA": [{
-        "answer": "Dani",
-        "correct": 0
-      }],
-      "answerB": [{
-        "answer": "Belgi",
-        "correct": 0
-      }],
-      "answerC": [{
-        "answer": "Bułgari",
-        "correct": 1
-      }],
-      "answerD": [{
-        "answer": "Białorusi",
-        "correct": 1
-      }]
-    },
-			       {
-      "id": 12,
-      "question": "Ile lat miał Nicolas Flamel gdy zmarł?",
-      "answerA": [{
-        "answer": "między 692 a 696",
-        "correct": 1
-      }],
-      "answerB": [{
-        "answer": "między 680 a 699",
-        "correct": 0
-      }],
-      "answerC": [{
-        "answer": "między 682 a 686",
-        "correct": 0
-      }],
-      "answerD": [{
-        "answer": "między 702 a 712",
-        "correct": 0
-      }]
-    },
-			   			       {
-      "id": 13,
-      "question": "Jak nazywał się mąż Minerwy Mcgonagall?",
-      "answerA": [{
-        "answer": "Dougal McGregor",
-        "correct": 0
-      }],
-      "answerB": [{
-        "answer": "William Gnogel",
-        "correct": 0
-      }],
-      "answerC": [{
-        "answer": "Elphinstone Urquart",
-        "correct": 1
-      }],
-      "answerD": [{
-        "answer": "Gregory Brib",
-        "correct": 0
-      }]
-    },
-			   			   			       {
-      "id": 14,
-      "question": "W którym roku urodził się Rebeus Hagrid?",
-      "answerA": [{
-        "answer": "1938",
-        "correct": 0
-      }],
-      "answerB": [{
-        "answer": "1928",
-        "correct": 1
-      }],
-      "answerC": [{
-        "answer": "1968",
-        "correct": 0
-      }],
-      "answerD": [{
-        "answer": "1888",
-        "correct": 0
-      }]
-    }
-  ]
-  }],
-  "zaklęcia": [{
-		"latwy": [{
 				"id": 0,
-				"question": "W ktorym roku Harry Potter zaczal uczeszczac do Szkoly Magii i Czarodziejstwa Hoghwart?",
+				"question": "Kto naśmiewał się z Marty w dniu jej śmierci?",
 				"answerA": [{
-					"answer": "1991",
+					"answer": "Tom Riddle",
+					"correct": 1
+				}],
+				"answerB": [{
+					"answer": "Oliwia Hornby",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Pansy Parkinson",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Lavender Brown",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 1,
+				"question": "Kto zabił Lavender Brown?",
+				"answerA": [{
+					"answer": "Draco Malfoy",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "1993",
+					"answer": "Barty Crouch",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "1990",
+					"answer": "Fenrir Greyback",
 					"correct": 1
 				}],
 				"answerD": [{
-					"answer": "1989",
+					"answer": "Bellatriks Lestrange",
 					"correct": 0
 				}]
-      }]
-  }]
+			},
+			{
+				"id": 2,
+				"question": "Kim dla Bellatriks Lestrange był Ted Tonks?",
+				"answerA": [{
+					"answer": "szwagrem",
+					"correct": 1
+				}],
+				"answerB": [{
+					"answer": "kuzynem",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "bratem",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "wujkiem",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 3,
+				"question": "Kto nie należał do Klubu Ślimaka?",
+				"answerA": [{
+					"answer": "Lucjusz Malfoy",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Hermiona Granger",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Hestia Carrow",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Draco Malfoy",
+					"correct": 1
+				}]
+			},
+			{
+				"id": 4,
+				"question": "Który z uczniów był Hatstall?",
+				"answerA": [{
+					"answer": "Gilderoy Lockhart",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Peter Pettigrew ",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Filius Flitwick",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Hermiona Granger",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 5,
+				"question": "Czyjego włosa powinna użyć Hermiona w swoim Eliksirze Wielosokowym?",
+				"answerA": [{
+					"answer": "Millicenty Bulstrode",
+					"correct": 1
+				}],
+				"answerB": [{
+					"answer": "Marty Warren",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Hestia Carrow",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Pansy Parkinson",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 6,
+				"question": "Kto doniósł o spotkaniach Gwardii Dumbledora?",
+				"answerA": [{
+					"answer": "Millicenty Bulstrode",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Marietta Edgecombe",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Draco Malfoy",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Pansy Parkinson",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 7,
+				"question": "Kto był właścicielem Dziurawego Kotła?",
+				"answerA": [{
+					"answer": "Jerry",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Bredy",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Tom",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "John",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 8,
+				"question": "Kto był dyrektorem Hoghwartu kiedy Tom Riddle do niej uczęszczał?",
+				"answerA": [{
+					"answer": "Albus Dumbledore",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Walter Aragon",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Bazyl Fronsac",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Armando Dippet",
+					"correct": 1
+				}]
+			},
+			{
+				"id": 9,
+				"question": "Kto nie potrafił używać oklumencji?",
+				"answerA": [{
+					"answer": "Albus Dumbledore",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Draco Malfoy",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Bellatriks Lestrange",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Harry Potter",
+					"correct": 1
+				}]
+			},
+			{
+				"id": 10,
+				"question": "Z jakiego kraju pochodził Wiktor Krum?",
+				"answerA": [{
+					"answer": "Dani",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Belgi",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Bułgari",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "Białorusi",
+					"correct": 1
+				}]
+			},
+			{
+				"id": 11,
+				"question": "Z jakiego kraju pochodził Wiktor Krum?",
+				"answerA": [{
+					"answer": "Dani",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Belgi",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Bułgari",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "Białorusi",
+					"correct": 1
+				}]
+			},
+			{
+				"id": 12,
+				"question": "Ile lat miał Nicolas Flamel gdy zmarł?",
+				"answerA": [{
+					"answer": "między 692 a 696",
+					"correct": 1
+				}],
+				"answerB": [{
+					"answer": "między 680 a 699",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "między 682 a 686",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "między 702 a 712",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 13,
+				"question": "Jak nazywał się mąż Minerwy Mcgonagall?",
+				"answerA": [{
+					"answer": "Dougal McGregor",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "William Gnogel",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Elphinstone Urquart",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "Gregory Brib",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 14,
+				"question": "W którym roku urodził się Rebeus Hagrid?",
+				"answerA": [{
+					"answer": "1938",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "1928",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "1968",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "1888",
+					"correct": 0
+				}]
+			}
+		]
+	}],
+	"zaklęcia": [{
+		"latwy": [{
+				"id": 0,
+				"question": "Aquamenti - co wytwarza to zaklęcie?",
+				"answerA": [{
+					"answer": "strumień ognia",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "strumień wody",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "zamrarza",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "zamienia w kamień",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 1,
+				"question": "Które z tych zaklęć nie należało do zaklęć niewybaczalnych?",
+				"answerA": [{
+					"answer": "Avada Kedavra",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Cruciatus",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Imperius",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Annihilare",
+					"correct": 1
+				}]
+			},
+			{
+				"id": 2,
+				"question": "Co powoduje zaklęcie Chłoszczyść?",
+				"answerA": [{
+					"answer": "wychłostanie danej osoby",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "wyczyszczenie danego obiektu",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "odchwaszczanie powierzchni",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "odsuwanie bibelotów",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 3,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 4,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 5,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 6,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 7,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 8,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 9,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 10,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 11,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 12,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 13,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 14,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			}
+		],
+		"średni": [{
+				"id": 0,
+				"question": "Na którym roku rozpoczyna się nauka zaklęć niewerbalnych",
+				"answerA": [{
+					"answer": "4",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "5",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "6",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "7",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 1,
+				"question": "Jakiego zaklęcia używa Poppy Pomfrey na Harrym Potterze po zadaniu ze smokiem?",
+				"answerA": [{
+					"answer": "Regenerate",
+					"correct": 1
+				}],
+				"answerB": [{
+					"answer": "Enervate",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Rennervate",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Renergite",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 2,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 1
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 3,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 1
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 4,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 5,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 6,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 7,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 8,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 9,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 10,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 11,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 12,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 13,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 14,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			}
+		],
+		"trudny": [{
+				"id": 0,
+				"question": "Jakie zaklęcie potrafiło wyczarować małą grupkę ptaków",
+				"answerA": [{
+					"answer": "Vera Verto",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Avis",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Accio",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Episkey",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 1,
+				"question": "Jak nazywa się przeciwzaklęcie dla Alohomora?",
+				"answerA": [{
+					"answer": "Colloportus",
+					"correct": 1
+				}],
+				"answerB": [{
+					"answer": "Carpe Retractum",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Aqua Eructo",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Lockado",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 2,
+				"question": "Zaklęcie Anteoculatia, powoduje wyrośnięcie?",
+				"answerA": [{
+					"answer": "ogona",
+					"correct": 1
+				}],
+				"answerB": [{
+					"answer": "rogów",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "poroża",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "końskiego zadu",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 3,
+				"question": "Jakim zaklęciem Severus Snape powoduje zniknięcie węża podczas trwania zająć w Klubie Pojedynków?",
+				"answerA": [{
+					"answer": "Erecto",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Iwanesko",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "Reducio",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "Deleto",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 4,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 5,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 6,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 7,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 8,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 9,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 10,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 11,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 12,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 13,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			{
+				"id": 14,
+				"question": "",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			}
+		]
+	}]
 }
