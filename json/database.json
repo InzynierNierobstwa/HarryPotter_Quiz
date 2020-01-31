@@ -967,81 +967,81 @@
 			},
 			{
 				"id": 3,
-				"question": "",
+				"question": "Jaką postać przyjmuje Patronus Harrego Pottera?",
 				"answerA": [{
-					"answer": "",
+					"answer": "bobra",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "jelenia",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "lisa",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "wydry",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 4,
-				"question": "",
+				"question": "Jak zazwyczaj wyglądał Patronus Remusa Lupina",
 				"answerA": [{
-					"answer": "",
+					"answer": "jak wilk",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "jak lis",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
-					"correct": 0
+					"answer": "jak mgła",
+					"correct": 1
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "jak księżyc",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 5,
-				"question": "",
+				"question": "Co wykonuje zaklęcie Finite?",
 				"answerA": [{
-					"answer": "",
+					"answer": "kończy działanie eliksiru",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "kończy działanie niektórych zaklęć",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "kończy mecz qudditcha",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "zatrzymuje czas",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 6,
-				"question": "",
+				"question": "Czego nie zrobi zaklęcie Flipendo?",
 				"answerA": [{
-					"answer": "",
+					"answer": "przepychało",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "przesuwało",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "podnosiło",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "odsuwało",
 					"correct": 0
 				}]
 			},
@@ -1248,41 +1248,41 @@
 			},
 			{
 				"id": 2,
-				"question": "",
+				"question": "Które zaklęcie odrzuca czarodzieja lub jego różdżkę?",
 				"answerA": [{
-					"answer": "",
-					"correct": 1
+					"answer": "Aberto",
+					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Extendo",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Expelliarmus",
+					"correct": 1
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Experimento",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 3,
-				"question": "",
+				"question": "Jak zmieniał się Patronus Nimfadory Tonks",
 				"answerA": [{
-					"answer": "",
-					"correct": 1
+					"answer": "z wydry w łanie",
+					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "z jelenia w wilka",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
-					"correct": 0
+					"answer": "z zająca w wilka",
+					"correct": 1
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "nie zmieniał się",
 					"correct": 0
 				}]
 			},
@@ -1589,21 +1589,21 @@
 			},
 			{
 				"id": 4,
-				"question": "",
+				"question": "Jak według legendy zginął czarodziej Raczidanin?",
 				"answerA": [{
-					"answer": "",
-					"correct": 0
+					"answer": "został zjedzony przez larwy",
+					"correct": 1
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "nie zginął",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "przez rozbrojenie",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "zaklęciem niewybaczalnym",
 					"correct": 0
 				}]
 			},
