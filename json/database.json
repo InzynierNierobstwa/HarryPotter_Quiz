@@ -563,41 +563,41 @@
 			},
 			   			         {
 				"id": 13,
-				"question": "xxx?",
+				"question": "Kto przekazał pelerynę rodzinie Potterów?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Ignotus Peverell",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
-					"correct": 1
+					"answer": "Antioch Peverell",
+					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Kadmus Peverell",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Iolanthe Peverell",
+					"correct": 1
 				}]
 			},
 			   			         {
 				"id": 14,
-				"question": "xxx?",
+				"question": "Jak na imię miała matka Toma Riddla?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Morfina",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Meropa",
 					"correct": 1
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Mary",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Maybel",
 					"correct": 0
 				}]
 			}
