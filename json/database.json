@@ -1014,7 +1014,7 @@
 				}],
 				"answerB": [{
 					"answer": "kończy działanie niektórych zaklęć",
-					"correct": 0
+					"correct": 1
 				}],
 				"answerC": [{
 					"answer": "kończy mecz qudditcha",
@@ -1038,7 +1038,7 @@
 				}],
 				"answerC": [{
 					"answer": "podnosiło",
-					"correct": 0
+					"correct": 1
 				}],
 				"answerD": [{
 					"answer": "odsuwało",
@@ -1047,161 +1047,161 @@
 			},
 			{
 				"id": 7,
-				"question": "",
+				"question": "Światło na końcu różdżki pojawia się gdy użyje się zaklęcia?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Aberto",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Lumos",
+					"correct": 1
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Liberacorpus",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Immobulus",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 8,
-				"question": "",
+				"question": "W, której części wystąpiło zjawisko Priori Incantatem?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Więzień Azkabanu",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Czara Ognia",
+					"correct": 1
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Zakon Feniksa",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Książe Półkrwii",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 9,
-				"question": "",
+				"question": "Kto biegle mógł używać zaklęcia Oblivate?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Severus Snape",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Albus Dumbledour",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Gilderoy Lockhart",
+					"correct": 1
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Harry Potter",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 10,
-				"question": "",
+				"question": "Jakim zaklęciem pokonać bogina?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Expecto Patronum",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Expelliarmus",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Reparifarge",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Riddikulus",
+					"correct": 1
 				}]
 			},
 			{
 				"id": 11,
-				"question": "",
+				"question": "Które z zaklęć spowoduje unoszenie obiektu?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Waddiwasi",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Vulnera Sanentur",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Vera Verto",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Wingardium Leviosa",
+					"correct": 1
 				}]
 			},
 			{
 				"id": 12,
-				"question": "",
+				"question": "Jakim zaklęciem zniszczono diadem Roweny Ravenclaw?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Vipera Evanesca",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Oppugno",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Szatańska Pożoga",
+					"correct": 1
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Zaklęcie Fideliusa",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 13,
-				"question": "",
+				"question": "Na jaką postać działało zaklęcie Patronusa?",
 				"answerA": [{
-					"answer": "",
-					"correct": 0
+					"answer": "na zwierzołaka",
+					"correct": 1
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "na dementora",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "na inferiusa",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "na akromantule",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 14,
-				"question": "",
+				"question": "Na jaki kolor zaklęcie Colovaria zmienia dany obiekt?",
 				"answerA": [{
-					"answer": "",
+					"answer": "czerwony",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "zielony",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "niebieski",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "na życzenie",
 					"correct": 0
 				}]
 			}
@@ -1288,81 +1288,81 @@
 			},
 			{
 				"id": 4,
-				"question": "",
+				"question": "Kto napisał Standardową Księgę Zaklęć",
 				"answerA": [{
-					"answer": "",
+					"answer": "Filius Flitwick",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Lisbeth Scintilla",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Bathilda Bagshot",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Miranda Goshawk",
+					"correct": 1
 				}]
 			},
 			{
 				"id": 5,
-				"question": "",
+				"question": "Co powoduje Homenum revelio?",
 				"answerA": [{
-					"answer": "",
+					"answer": "ukrycie danej osoby",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "znalezienie pozycji danej osoby",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "odkrycie danej osoby",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "poparzenie danej osoby",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 6,
-				"question": "",
+				"question": "Jakim zaklęciem Wiktor Krum oślepił smoka?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Capacious extremis",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Conjunctivitis",
+					"correct": 1
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Liberacorpus",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Cave Inimicum",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 7,
-				"question": "",
+				"question": "Czym jest legilimencja?",
 				"answerA": [{
-					"answer": "",
+					"answer": "wtłaczanie fałszywych wspomnień",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "zakłamywanie linii czasowej",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "obrona umysłu przed penetracją",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "wydobywanie uczuć i wspomnień",
 					"correct": 0
 				}]
 			},
