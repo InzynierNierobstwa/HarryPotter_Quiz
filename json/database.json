@@ -523,21 +523,81 @@
       },
       {
 				"id": 11,
-				"question": "xxx?",
+				"question": "Jak miał na imię Crabbe?",
 				"answerA": [{
-					"answer": "Bartemiusza Croucha",
+					"answer": "Gregory",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "Lucjusza Malfoya",
+					"answer": "Vincent",
 					"correct": 1
 				}],
 				"answerC": [{
-					"answer": "Penelopa Clearwater",
+					"answer": "Michel",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "Minerwy McGonagall",
+					"answer": "James",
+					"correct": 0
+				}]
+			},
+			         {
+				"id": 12,
+				"question": "Jak na imię miała matka Rebeusa Hagrida?",
+				"answerA": [{
+					"answer": "Frenuela",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "Abreola",
+					"correct": 0
+				}],
+				"answerC": [{
+					"answer": "Frydwulfa",
+					"correct": 1
+				}],
+				"answerD": [{
+					"answer": "Falweta",
+					"correct": 0
+				}]
+			},
+			   			         {
+				"id": 13,
+				"question": "xxx?",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
+					"correct": 0
+				}]
+			},
+			   			         {
+				"id": 14,
+				"question": "xxx?",
+				"answerA": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerB": [{
+					"answer": "",
+					"correct": 1
+				}],
+				"answerC": [{
+					"answer": "",
+					"correct": 0
+				}],
+				"answerD": [{
+					"answer": "",
 					"correct": 0
 				}]
 			}
@@ -780,6 +840,66 @@
       "answerD": [{
         "answer": "Białorusi",
         "correct": 1
+      }]
+    },
+			       {
+      "id": 12,
+      "question": "Ile lat miał Nicolas Flamel gdy zmarł?",
+      "answerA": [{
+        "answer": "między 692 a 696",
+        "correct": 1
+      }],
+      "answerB": [{
+        "answer": "między 680 a 699",
+        "correct": 0
+      }],
+      "answerC": [{
+        "answer": "między 682 a 686",
+        "correct": 0
+      }],
+      "answerD": [{
+        "answer": "między 702 a 712",
+        "correct": 0
+      }]
+    },
+			   			       {
+      "id": 13,
+      "question": "Jak nazywał się mąż Minerwy Mcgonagall?",
+      "answerA": [{
+        "answer": "Dougal McGregor",
+        "correct": 0
+      }],
+      "answerB": [{
+        "answer": "William Gnogel",
+        "correct": 0
+      }],
+      "answerC": [{
+        "answer": "Elphinstone Urquart",
+        "correct": 1
+      }],
+      "answerD": [{
+        "answer": "Gregory Brib",
+        "correct": 0
+      }]
+    },
+			   			   			       {
+      "id": 14,
+      "question": "W którym roku urodził się Rebeus Hagrid?",
+      "answerA": [{
+        "answer": "1938",
+        "correct": 0
+      }],
+      "answerB": [{
+        "answer": "1928",
+        "correct": 1
+      }],
+      "answerC": [{
+        "answer": "1968",
+        "correct": 0
+      }],
+      "answerD": [{
+        "answer": "1888",
+        "correct": 0
       }]
     }
   ]
