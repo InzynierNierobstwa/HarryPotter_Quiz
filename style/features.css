@@ -1,7 +1,8 @@
 .playTutorial__button--start,
 .lvlBundle__button,
 .categoryBundle__button,
-.question__answerBtn {
+.question__answerBtn,
+.question__FeatureBtn {
   -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
           box-shadow: inset 0px 1px 0px 0px #ffffff;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f9f9f9), to(#e9e9e9));
@@ -23,7 +24,8 @@
 .playTutorial__button--start:hover,
 .lvlBundle__button:hover,
 .categoryBundle__button:hover,
-.question__answerBtn:hover {
+.question__answerBtn:hover,
+.question__FeatureBtn:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #e9e9e9), to(#f9f9f9));
   background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
   background-color: #e9e9e9;
@@ -32,8 +34,17 @@
 .playTutorial__button--start:active,
 .lvlBundle__button:active,
 .categoryBundle__button:active,
-.question__answerBtn:hover {
+.question__answerBtn:active,
+.question__FeatureBtn:active {
   position: relative;
   top: 1px;
+}
+
+.question__Correct {
+  background: #2a623d;
+}
+
+.question__Wrong {
+  background: #740001;
 }
 /*# sourceMappingURL=features.css.map */

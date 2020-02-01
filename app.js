@@ -14,38 +14,23 @@ document.addEventListener("DOMContentLoaded", function() {
   //zbiera dane o wybranej kategorii
   function grabCategory(starter, categoryreq) {
     if (categoryreq[0] === "Zaklęcia" || categoryreq[1] === "Zaklęcia") {
-      const zaklecia = starter.zaklecia[0];
+      const zaklecia = starter.zaklęcia[0];
       return zaklecia;
-    } else if (categoryreq[0] === "Eliksiry" || categoryreq[1] === "Eliksiry") {
-      const eliksiry = starter.eliksiry[0];
-      return eliksiry;
     } else if (
-      categoryreq[0] === "Zielarstwo" ||
-      categoryreq[1] === "Zielarstwo"
+      categoryreq[0] === "Eliksiry i Zielarstwo" ||
+      categoryreq[1] === "Eliksiry i Zielarstwo"
     ) {
-      const zielarstwo = starter.zielarstwo[0];
-      return zielarstwo;
-    } else if (
-      categoryreq[0] === "Historia Magii" ||
-      categoryreq[1] === "Historia Magii"
-    ) {
-      const historia = starter.historiaMagii[0];
-      return historia;
-    } else if (
-      categoryreq[0] === "Prawo Magii" ||
-      categoryreq[1] === "Prawo Magii"
-    ) {
-      const prawo = starter.prawoMagii[0];
-      return prawo;
-    } else if (
-      categoryreq[0] === "Magiczne Zwierzęta" ||
-      categoryreq[1] === "Magiczne Zwierzęta"
-    ) {
-      const zwierzeta = starter.magiczneZwierzeta[0];
-      return zwierzeta;
+      const eliksiryZielarstwo = starter.eliksiryZaklecia[0];
+      return eliksiryZielarstwo;
     } else if (categoryreq[0] === "Postaci" || categoryreq[1] === "Postaci") {
       const postaci = starter.postaci[0];
       return postaci;
+    } else if (
+      categoryreq[0] === "Przedmioty" ||
+      categoryreq[1] === "Przedmioty"
+    ) {
+      const przedmioty = starter.postaci[0];
+      return przedmioty;
     } else {
       console.log("category error");
     }
@@ -89,9 +74,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const requirement = grabReq(starter, category, lvl)[random];
 
     const answerAcorrect = requirement.answerA[0].correct;
-    const answerBcorrect = requirement.answerA[0].correct;
-    const answerCcorrect = requirement.answerA[0].correct;
-    const answerDcorrect = requirement.answerA[0].correct;
+    const answerBcorrect = requirement.answerB[0].correct;
+    const answerCcorrect = requirement.answerC[0].correct;
+    const answerDcorrect = requirement.answerD[0].correct;
 
     const answerCorrectArr = [
       answerAcorrect,
@@ -143,21 +128,15 @@ document.addEventListener("DOMContentLoaded", function() {
           quesAnswerBundler.appendChild(quesAnswer);
         }
 
-        function checkAnswer(correct) {
-          if (correct === 1) {
-            console.log("poprawna odpowiedz");
-          } else {
-            console.log("niepoprawna odpowiedz");
-          }
-        }
-
         const btnAnswer = document.querySelectorAll(".question__answerBtn");
-        console.log(btnAnswer);
 
         for (let i = 0; i < btnAnswer.length; i++) {
           btnAnswer[i].addEventListener(
             "click",
             function() {
+              btnAnswer.forEach(function(elem) {
+                elem.style.pointerEvents = "none";
+              });
               buttonsControl(this, i);
             },
             false
@@ -165,15 +144,90 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         function buttonsControl(button, i) {
-          console.log(i);
-          console.log(button.className);
+          const correctAnsw = grabCorrectAnswer(
+            question,
+            requirementArr,
+            requirementArr,
+            questionRandom
+          );
+
+          if (correctAnsw[i] === 1) {
+            outcomeCount(correctAnsw[i]);
+            button.classList.add("question__Correct");
+          } else {
+            outcomeCount(correctAnsw[i]);
+            button.classList.add("question__Wrong");
+          }
         }
-        console.log(question.postaci[0].latwy[0]);
+
+        //przyciski next prev
+        const constquesContainer = document.createElement("div");
+        constquesContainer.classList.add("questionContainer__NextEnd");
+
+        const constquesNextBtn = document.createElement("button");
+        constquesNextBtn.classList.add("question__FeatureBtn");
+        constquesNextBtn.innerText = "Next";
+
+        const constquesEndBtn = document.createElement("button");
+        constquesEndBtn.classList.add("question__FeatureBtn");
+        constquesEndBtn.innerText = "End";
+
+        quesFrame.appendChild(constquesContainer);
+        constquesContainer.appendChild(constquesNextBtn);
+        constquesContainer.appendChild(constquesEndBtn);
+
+        constquesNextBtn.addEventListener("click", function() {
+          sectionPlace.removeChild(quesFrame);
+          getQuiz();
+        });
       } else {
         console.log("program failed UPLOAD UPLOAD");
       }
     };
     xhr.send();
+  }
+
+  let correctQuestion = 0;
+  let allQuestion = 0;
+  function outcomeCount(choosedAnsw) {
+    allQuestion += 1;
+    if (allQuestion <= 3) {
+      console.log(allQuestion);
+      if (choosedAnsw === 1) {
+        const outcomeDisplay = document.querySelector(
+          ".outcomeContainer__number"
+        );
+        correctQuestion += 1;
+        outcomeDisplay.innerHTML = correctQuestion;
+      }
+    } else {
+      console.log("koniec gry");
+      gameEnd();
+    }
+  }
+
+  function gameEnd() {
+    const endFrame = document.createElement("div");
+    endFrame.classList.add = "endContainer";
+
+    const endButtons = document.createElement("div");
+    endButtons.classList.add = "endContainer__button";
+
+    const endButtonCont = document.createElement("button");
+    endButtonCont.classList.add = "endContainer__button--cont";
+    endButtonCont.innerText = "Koniec";
+
+    const endButtonRes = document.createElement("button");
+    endButtonRes.classList.add = "endContainer__button--res";
+    endButtonRes.innerText = "Jeszcze raz";
+
+    endButtons.appendChild(endButtonCont);
+    endButtons.appendChild(endButtonRes);
+
+    endFrame.appendChild(endButtons);
+
+    const outcomCont = document.querySelector(".outcomeContainer");
+    outcomCont.appendChild(endFrame);
   }
 
   //obiekt ktory uniemozliwia ponowne klikniecie

@@ -41,6 +41,13 @@
   display: block;
 }
 
+.outcomeContainer {
+  font-family: $fontSide;
+  font-size: 1.5em;
+  margin: 2em auto;
+  text-align: center;
+}
+
 .lvlBundle__container,
 .categoryBundle__container {
   margin: 1em 0;
@@ -73,6 +80,17 @@
 }
 
 .question__answerBtn {
+  margin: 2em 5em;
+  padding: 0.5em 3em;
+}
+
+.questionContainer__NextEnd {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.question__FeatureBtn {
   margin: 2em 5em;
   padding: 0.5em 3em;
 }

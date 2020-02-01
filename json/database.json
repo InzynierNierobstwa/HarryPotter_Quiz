@@ -954,7 +954,7 @@
 				}],
 				"answerB": [{
 					"answer": "wyczyszczenie danego obiektu",
-					"correct": 0
+					"correct": 1
 				}],
 				"answerC": [{
 					"answer": "odchwaszczanie powierzchni",
@@ -974,7 +974,7 @@
 				}],
 				"answerB": [{
 					"answer": "jelenia",
-					"correct": 0
+					"correct": 1
 				}],
 				"answerC": [{
 					"answer": "lisa",
@@ -1170,11 +1170,11 @@
 				"question": "Na jaką postać działało zaklęcie Patronusa?",
 				"answerA": [{
 					"answer": "na zwierzołaka",
-					"correct": 1
+					"correct": 0
 				}],
 				"answerB": [{
 					"answer": "na dementora",
-					"correct": 0
+					"correct": 1
 				}],
 				"answerC": [{
 					"answer": "na inferiusa",
@@ -1368,141 +1368,141 @@
 			},
 			{
 				"id": 8,
-				"question": "",
+				"question": "Kto był gwarantem podczas składania wieczystej przysięgi Severusa Snapea oraz Narcyzy Malfoy?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Lucjusz Malfoy",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Bellatriks Lestrange",
+					"correct": 1
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Walden Macnair",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Balise Zabini",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 9,
-				"question": "",
+				"question": "Czego według prawa Gampa nie można stworzyć z nieczego?",
 				"answerA": [{
-					"answer": "",
+					"answer": "płynów",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "przedmiotów",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
-					"correct": 0
+					"answer": "jedzenia",
+					"correct": 1
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "pogody",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 10,
-				"question": "",
+				"question": "\"Do jakiego przedmiotu była książka \"W poszukiwaniu Kwintesencji\"?",
 				"answerA": [{
-					"answer": "",
+					"answer": "transmutacja",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "astrologia",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
-					"correct": 0
+					"answer": "zaklęcia i uroki",
+					"correct": 1
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "wróżbiarstwo",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 11,
-				"question": "",
+				"question": "W jaki sposób zaklęcie Petrificus Totalus paraliżuje ofiarę?",
 				"answerA": [{
-					"answer": "",
+					"answer": "zamienia ciało w kamień",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "zwiotcza mięśnie ofiary",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
-					"correct": 0
+					"answer": "zamraża i poraża ciało",
+					"correct": 1
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "sprawia że ofiara zasypia",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 12,
-				"question": "",
+				"question": "Jakim zaklęciem Ron uratował Hermionę przed trollem?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Accio",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Oblivate",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Drętwota",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Wingardium Leviosa",
+					"correct": 1
 				}]
 			},
 			{
 				"id": 13,
-				"question": "",
+				"question": "Czym jest urok?",
 				"answerA": [{
-					"answer": "",
+					"answer": "zmiana formy lub wyglądu obiektu",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "uzdrawia stan żywej osoby",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "zaklęcia które były irytujące ale zabawne",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
-					"correct": 0
+					"answer": "zmiana nieodłącznych cech obiektu",
+					"correct": 1
 				}]
 			},
 			{
 				"id": 14,
-				"question": "",
+				"question": "Jakim zaklęciem Hermiona unieruchomiła chochliki na lekcji OPCZ?",
 				"answerA": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Immobulus",
+					"correct": 1
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Imperius",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Imprevius",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Incendio",
 					"correct": 0
 				}]
 			}
@@ -1609,201 +1609,201 @@
 			},
 			{
 				"id": 5,
-				"question": "",
+				"question": "W jakiej klasie odbywały się zajęcia z transmutacji?",
 				"answerA": [{
-					"answer": "",
+					"answer": "56",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "01",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
-					"correct": 0
+					"answer": "1B",
+					"correct": 1
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "63A",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 6,
-				"question": "",
+				"question": "Które z zaklęć nie pojawiło się na SUMach w części pisemnej?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Wingardium Leviosa",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Zaklęcie rozweselające",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Colovaria",
+					"correct": 1
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Przeciw zaklęcie na czkawkę",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 7,
-				"question": "",
+				"question": "Jaki był kolor iskry podczas działania zaklęcia rozweselającego?",
 				"answerA": [{
-					"answer": "",
+					"answer": "zielona",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "czerwona",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "żółta",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
-					"correct": 0
+					"answer": "pomarańczowa",
+					"correct": 1
 				}]
 			},
 			{
 				"id": 8,
-				"question": "",
+				"question": "Które z poniższych zaklęć nie osłabia siły głosu?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Quietus",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Sonorus",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Silencio",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Oblivate",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 9,
-				"question": "",
+				"question": "Gdzie Harry Potter używał zaklęcia Wskaż mi?",
 				"answerA": [{
-					"answer": "",
+					"answer": "w zakazanym lesie podczas kary",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "w czasie ukrywania się",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
-					"correct": 0
+					"answer": "w labiryncie podczas Turnieju Trójmagicznego",
+					"correct": 1
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "we Wrzeszczącej Chacie",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 10,
-				"question": "",
+				"question": "Jakim zaklęciem powielono Medalion Salazara Slytherina?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Glisseo",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Glacius",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Colloportus",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Gemino",
+					"correct": 1
 				}]
 			},
 			{
 				"id": 11,
-				"question": "",
+				"question": "Jakiego zamiennika można użyć do zaklęcia Chłoszczyć?",
 				"answerA": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Tergeo",
+					"correct": 1
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Tarantallegra",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Portus",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Protego",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 12,
-				"question": "",
+				"question": "Które zaklęcie zamienia obiekt w świstoklik?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Nox",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Obscuro",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Portus",
+					"correct": 1
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Oppugno",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 13,
-				"question": "",
+				"question": "Jakim zaklęciem Hermiona pomogła Ronowi dostać się do drużyny quiditcha?",
 				"answerA": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Confundus",
+					"correct": 1
 				}],
 				"answerB": [{
-					"answer": "",
+					"answer": "Cistem Aperio",
 					"correct": 0
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Confringo",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Cruciatus",
 					"correct": 0
 				}]
 			},
 			{
 				"id": 14,
-				"question": "",
+				"question": "Jakie zaklęcie zamienia przedmioty w kamień?",
 				"answerA": [{
-					"answer": "",
+					"answer": "Diffindo",
 					"correct": 0
 				}],
 				"answerB": [{
-					"answer": "",
-					"correct": 0
+					"answer": "Duro",
+					"correct": 1
 				}],
 				"answerC": [{
-					"answer": "",
+					"answer": "Deprimo",
 					"correct": 0
 				}],
 				"answerD": [{
-					"answer": "",
+					"answer": "Defodio",
 					"correct": 0
 				}]
 			}
